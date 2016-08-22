@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2016-03-28 06:38:48-06:00
+date: 2016-03-28
 layout: post
 slug: 3ds-code-injection-through-loader
 title: 3DS Code Injection through "Loader"

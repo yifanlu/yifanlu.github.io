@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/obbah.zip
 author: yifanlu
 comments: true
-date: 2007-03-01 17:00:43-06:00
+date: 2007-03-01
 excerpt: The best Habbo retro ever.
 layout: project
 slug: obbah

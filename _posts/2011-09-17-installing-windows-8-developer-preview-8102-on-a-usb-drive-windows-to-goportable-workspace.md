@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-09-17 21:20:57-06:00
+date: 2011-09-17
 layout: post
 slug: installing-windows-8-developer-preview-8102-on-a-usb-drive-windows-to-goportable-workspace
 title: Installing Windows 8 Developer Preview (8102) on a USB Drive (Windows To Go/Portable

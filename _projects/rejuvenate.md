@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/rejuvenate-0.3.4-beta.zip
 author: yifanlu
 comments: false
-date: 2015-06-20 19:32:34-06:00
+date: 2015-06-20
 excerpt: Native homebrew for PS Vita
 layout: project
 slug: rejuvenate

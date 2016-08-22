@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-12-10 06:32:26-06:00
+date: 2011-12-10
 layout: post
 slug: kindle-touch-5-0-jailbreakroot-and-ssh
 title: Kindle Touch (5.0) Jailbreak/Root and SSH

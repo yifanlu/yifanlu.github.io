@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-11-27 23:45:01-06:00
+date: 2011-11-27
 layout: post
 slug: reversing-the-xperia-play-emulator-part-deux
 title: Reversing the Xperia Play emulator (part deux)

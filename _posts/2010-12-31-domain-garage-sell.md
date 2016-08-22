@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-12-31 06:46:41-06:00
+date: 2010-12-31
 layout: post
 slug: domain-garage-sell
 title: 'New Year: Domain garage sell!'

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-08-11 22:28:13-06:00
+date: 2011-08-11
 layout: post
 slug: psxperia-converts-any-psx-game-to-work-on-xperia-play
 title: 'PSXperia: Converts any PSX game to work on Xperia Play'

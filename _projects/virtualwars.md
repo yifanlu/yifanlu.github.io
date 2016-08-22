@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/virtualwars.zip
 author: yifanlu
 comments: true
-date: 2005-01-24 17:00:56-06:00
+date: 2005-01-24
 excerpt: A point-and-click/RPG game. (Made in 6th grade)
 layout: project
 slug: virtualwars

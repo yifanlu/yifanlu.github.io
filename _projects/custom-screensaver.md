@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/simple_screensaver_1.0.zip
 author: yifanlu
 comments: true
-date: 2012-01-15 23:53:15-06:00
+date: 2012-01-15
 excerpt: Use any image as a screensaver on the Kindle Touch
 layout: project
 slug: custom-screensaver

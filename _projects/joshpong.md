@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/joshpong.zip
 author: yifanlu
 comments: true
-date: 2010-09-10 17:00:03-06:00
+date: 2010-09-10
 excerpt: Pong game based on ASCIIMan
 layout: project
 slug: joshpong

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-09-01 20:23:36-06:00
+date: 2011-09-01
 layout: post
 slug: kindle-3-2-1-jailbreak-update
 title: Kindle 3.2.1 Jailbreak (Update)

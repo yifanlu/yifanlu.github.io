@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-06-05 18:10:14-06:00
+date: 2015-06-05
 layout: post
 slug: secure-your-emmc-devices
 title: Secure your eMMC devices!

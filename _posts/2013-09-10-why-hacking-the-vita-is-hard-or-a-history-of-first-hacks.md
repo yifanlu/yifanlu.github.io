@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2013-09-10 05:28:53-06:00
+date: 2013-09-10
 layout: post
 slug: why-hacking-the-vita-is-hard-or-a-history-of-first-hacks
 title: 'Why hacking the Vita is hard (or: a history of first hacks)'

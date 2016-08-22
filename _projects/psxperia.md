@@ -2,7 +2,7 @@
 archive: https://github.com/yifanlu/PSXperia/downloads
 author: yifanlu
 comments: true
-date: 2011-08-10 17:00:27-06:00
+date: 2011-08-10
 excerpt: Converts any PSX game to work on the Xperia Play
 layout: project
 slug: psxperia

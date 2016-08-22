@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/vitamtp1_2.0.0_i386.deb
 author: yifanlu
 comments: true
-date: 2013-05-04 23:12:39-06:00
+date: 2013-05-04
 excerpt: Library to interact with Vita's USB MTP protocol
 layout: project
 site: https://github.com/yifanlu/VitaMTP

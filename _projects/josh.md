@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2009-11-06 17:00:05-06:00
+date: 2009-11-06
 excerpt: Extended Windows console library for Java
 layout: project
 site: http://github.com/yifanlu/Josh

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-04-03 20:52:50-06:00
+date: 2011-04-03
 layout: post
 slug: porting-kindle-3-1-part-3-%e2%80%93-update-packaging-script
 title: 'Porting Kindle 3.1: Part 3 – Update packaging script'

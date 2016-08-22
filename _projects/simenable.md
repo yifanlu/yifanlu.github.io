@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/com.yifanlu.simenable_1.0.2_iphoneos-arm.deb
 author: yifanlu
 comments: true
-date: 2012-04-07 03:00:59-06:00
+date: 2012-04-07
 excerpt: Toggle between the GSM and CDMA on an SIM interposer unlocked iPhone.
 layout: project
 slug: simenable

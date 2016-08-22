@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2013-05-04 23:47:57-06:00
+date: 2013-05-04
 layout: post
 slug: libvitamtp-opencma-vita-content-management-on-linux-and-more
 title: 'libVitaMTP & OpenCMA: Vita content management on Linux (and more)'

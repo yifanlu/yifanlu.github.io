@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-02-19 17:00:50-06:00
+date: 2010-02-19
 excerpt: Allows users to register their own account for your Google Apps.
 layout: project
 slug: googleappuserregistration

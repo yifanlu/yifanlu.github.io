@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2016-03-28 07:21:54-06:00
+date: 2016-03-28
 layout: post
 slug: cosmo3ds-the-cfw-nobody-wanted
 title: 'Cosmo3DS: The CFW nobody wanted'

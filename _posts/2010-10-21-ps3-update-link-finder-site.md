@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-10-21 22:41:59-06:00
+date: 2010-10-21
 layout: post
 slug: ps3-update-link-finder-site
 title: PS3 update link finder site

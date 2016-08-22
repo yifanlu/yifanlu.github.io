@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2016-07-28 09:07:31-06:00
+date: 2016-07-28
 layout: post
 slug: henkaku-vita-homebrew-for-everyone
 title: 'HENkaku: Vita homebrew for everyone'

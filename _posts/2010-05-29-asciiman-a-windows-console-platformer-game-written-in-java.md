@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-05-29 22:11:50-06:00
+date: 2010-05-29
 layout: post
 slug: asciiman-a-windows-console-platformer-game-written-in-java
 title: 'ASCIIMan: A Windows Console platformer game written in Java'

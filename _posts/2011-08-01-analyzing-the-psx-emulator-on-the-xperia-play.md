@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-08-01 21:20:22-06:00
+date: 2011-08-01
 layout: post
 slug: analyzing-the-psx-emulator-on-the-xperia-play
 title: Analyzing the PSX emulator on the Xperia Play

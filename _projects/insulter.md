@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2006-03-01 17:00:06-06:00
+date: 2006-03-01
 excerpt: Jokeware. Generates endless insults as error dialogs, and the user can't
   close it.
 layout: project

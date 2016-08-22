@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2012-04-01 16:00:42-06:00
+date: 2012-04-01
 layout: post
 slug: yifan-lu-has-been-acquired-by-electronic-arts-inc
 title: '[April Fools] Yifan Lu has been acquired by Electronic Arts Inc.'

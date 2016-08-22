@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-10-22 17:00:45-06:00
+date: 2011-10-22
 excerpt: Script that auto-accepts OSX FaceTime calls.
 layout: project
 slug: facetime_surveillance

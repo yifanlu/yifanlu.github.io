@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2012-12-12 22:49:43-06:00
+date: 2012-12-12
 layout: post
 slug: playstation-vita-the-progress-and-the-plan
 title: 'PlayStation Vita: the progress and the plan'

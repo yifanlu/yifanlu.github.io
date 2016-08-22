@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2013-12-30 06:02:39-06:00
+date: 2013-12-30
 layout: post
 slug: updates-on-the-vita-hardware-hacking-project
 title: Updates on the Vita Hardware Hacking project

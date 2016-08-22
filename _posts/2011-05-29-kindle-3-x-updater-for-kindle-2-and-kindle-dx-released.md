@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-05-29 16:59:52-06:00
+date: 2011-05-29
 layout: post
 slug: kindle-3-x-updater-for-kindle-2-and-kindle-dx-released
 title: Kindle 3.X updater for Kindle 2 and Kindle DX released

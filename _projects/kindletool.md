@@ -2,7 +2,7 @@
 archive: https://github.com/yifanlu/KindleTool/downloads
 author: yifanlu
 comments: true
-date: 2012-01-12 23:34:41-06:00
+date: 2012-01-12
 excerpt: Generates Kindle update packages
 layout: project
 site: https://github.com/yifanlu/KindleTool

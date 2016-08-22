@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/igradebook.zip
 author: yifanlu
 comments: true
-date: 2009-04-21 17:00:02-06:00
+date: 2009-04-21
 excerpt: Based on KGC, allows KISD students to browse their grades online.
 layout: project
 published: false

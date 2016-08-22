@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-10-22 22:48:28-06:00
+date: 2010-10-22
 layout: post
 slug: osx-facetime-auto-accept-script
 title: OSX FaceTime auto-accept script

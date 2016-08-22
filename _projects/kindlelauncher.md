@@ -2,7 +2,7 @@
 archive: https://github.com/downloads/yifanlu/KindleLauncher/kindle_launcher_1.0.1.zip
 author: yifanlu
 comments: true
-date: 2012-01-12 23:38:55-06:00
+date: 2012-01-12
 excerpt: Extendable GUI Menu launcher for Kindle Touch
 layout: project
 site: https://github.com/yifanlu/KindleLauncher

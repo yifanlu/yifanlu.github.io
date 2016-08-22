@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2008-12-25 21:33:10-06:00
+date: 2008-12-25
 layout: post
 slug: winter-break-brings-updates
 title: Winter Break brings updates!

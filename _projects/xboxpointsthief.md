@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/xboxpointsthief.zip
 author: yifanlu
 comments: true
-date: 2009-01-18 17:00:42-06:00
+date: 2009-01-18
 excerpt: Checks if a points code works.
 layout: project
 published: false

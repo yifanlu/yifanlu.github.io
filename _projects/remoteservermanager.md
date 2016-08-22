@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/remoteservermanager.zip
 author: yifanlu
 comments: true
-date: 2007-08-09 17:00:51-06:00
+date: 2007-08-09
 excerpt: If you have a retro server running elseware in the house, use this app to
   manager it.
 layout: project

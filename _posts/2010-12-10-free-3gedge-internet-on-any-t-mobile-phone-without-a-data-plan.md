@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-12-10 06:51:10-06:00
+date: 2010-12-10
 layout: post
 slug: free-3gedge-internet-on-any-t-mobile-phone-without-a-data-plan
 title: Free 3G/EDGE internet on any T-Mobile phone without a data plan

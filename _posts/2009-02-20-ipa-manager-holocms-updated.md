@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2009-02-20 18:28:31-06:00
+date: 2009-02-20
 layout: post
 slug: ipa-manager-holocms-updated
 title: IPA Manager, HoloCMS updated

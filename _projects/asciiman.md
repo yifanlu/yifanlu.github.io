@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/asciiman.zip
 author: yifanlu
 comments: true
-date: 2010-05-29 17:00:31-06:00
+date: 2010-05-29
 excerpt: Windows Console plat-former game written with Josh
 layout: project
 slug: asciiman

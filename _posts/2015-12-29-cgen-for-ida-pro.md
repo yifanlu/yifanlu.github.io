@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-12-29 17:18:59-06:00
+date: 2015-12-29
 layout: post
 slug: cgen-for-ida-pro
 title: CGEN for IDA Pro

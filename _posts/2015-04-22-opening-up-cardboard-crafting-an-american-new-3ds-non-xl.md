@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-04-22 23:53:41-06:00
+date: 2015-04-22
 layout: post
 slug: opening-up-cardboard-crafting-an-american-new-3ds-non-xl
 title: 'Opening Up CARDBOARD: Crafting an American New 3DS (non-XL)'

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-04-11 17:19:49-06:00
+date: 2010-04-11
 layout: post
 slug: update-to-tweetbot
 title: Update to TweetBot

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-07-26 20:57:28-06:00
+date: 2010-07-26
 layout: post
 slug: compiling-the-linux-kernel-for-amazon-kindle
 title: Compiling the Linux kernel for Amazon Kindle

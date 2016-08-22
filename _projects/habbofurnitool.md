@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/habbofurnitool.zip
 author: yifanlu
 comments: true
-date: 2008-12-22 17:00:50-06:00
+date: 2008-12-22
 excerpt: Gathers furniture data from Habbo and converts it to your needs.
 layout: project
 slug: habbofurnitool

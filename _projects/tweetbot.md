@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-04-01 17:00:52-06:00
+date: 2010-04-01
 excerpt: Proxy from Twitter to Foursquare
 layout: project
 slug: tweetbot

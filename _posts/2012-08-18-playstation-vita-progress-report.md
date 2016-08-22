@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2012-08-18 22:46:05-06:00
+date: 2012-08-18
 layout: post
 slug: playstation-vita-progress-report
 title: Playstation Vita progress report

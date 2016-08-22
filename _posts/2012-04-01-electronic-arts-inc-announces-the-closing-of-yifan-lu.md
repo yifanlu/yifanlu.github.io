@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2012-04-01 16:13:52-06:00
+date: 2012-04-01
 layout: post
 slug: electronic-arts-inc-announces-the-closing-of-yifan-lu
 title: '[April Fools] Electronic Arts Inc. announces the closing of Yifan Lu'

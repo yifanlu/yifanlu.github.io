@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/kindleupdater.zip
 author: yifanlu
 comments: true
-date: 2011-04-01 17:00:27-06:00
+date: 2011-04-01
 excerpt: Backport the Kindle 3.0 software to K2/DX
 layout: project
 slug: kindleupdater

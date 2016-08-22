@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/kindle_jailbreak_1.1.zip
 author: yifanlu
 comments: true
-date: 2011-12-09 17:00:53-06:00
+date: 2011-12-09
 excerpt: Run unsigned code on the Amazon Kindle Touch
 layout: project
 slug: kindle-touch-jailbreak

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-08-07 23:33:08-06:00
+date: 2011-08-07
 layout: post
 slug: reverse-engineering-a-dynamic-library-on-the-xperia-play
 title: Reverse engineering a dynamic library on the Xperia Play

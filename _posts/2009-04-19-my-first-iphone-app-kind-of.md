@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2009-04-19 15:05:14-06:00
+date: 2009-04-19
 layout: post
 slug: my-first-iphone-app-kind-of
 title: My first iPhone app (kind-of)

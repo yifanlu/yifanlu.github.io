@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-10-21 17:00:21-06:00
+date: 2011-10-21
 excerpt: Find links to PS3 game update PKGs.
 layout: project
 site: /psn

@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/holocms.zip
 author: yifanlu
 comments: true
-date: 2008-08-13 17:00:44-06:00
+date: 2008-08-13
 excerpt: A PHP site that emulates Habbo.com.
 layout: project
 slug: holocms

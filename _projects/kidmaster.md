@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2005-04-03 17:00:00-06:00
+date: 2005-04-03
 excerpt: I made this in the 4th grade, it was my first attempt at making a game.
 layout: project
 slug: kidmaster

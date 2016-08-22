@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2014-01-11 05:56:44-06:00
+date: 2014-01-11
 layout: post
 slug: dumping-the-vita-nand
 title: Dumping the Vita NAND

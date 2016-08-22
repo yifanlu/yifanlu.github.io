@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/wrtvwatcher.zip
 author: yifanlu
 comments: true
-date: 2008-06-08 17:00:46-06:00
+date: 2008-06-08
 excerpt: Sets sliently on the desktop looking for an item to be in stock at WRTV.
 layout: project
 published: false

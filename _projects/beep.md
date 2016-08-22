@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/beep.zip
 author: yifanlu
 comments: true
-date: 2008-04-24 17:00:54-06:00
+date: 2008-04-24
 excerpt: Sandbox app that lets you play with your system speaker.
 layout: project
 slug: beep

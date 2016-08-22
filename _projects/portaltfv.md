@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/portaltfv.zip
 author: yifanlu
 comments: true
-date: 2008-10-11 17:00:56-06:00
+date: 2008-10-11
 excerpt: 'The popular Portal mod, Portal: TFV now a mod.'
 layout: project
 slug: portaltfv

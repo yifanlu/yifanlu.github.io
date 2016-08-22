@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/databaseconverter.zip
 author: yifanlu
 comments: true
-date: 2007-11-15 17:00:43-06:00
+date: 2007-11-15
 excerpt: Converts old flat-file based retro database into new MySQL version.
 layout: project
 slug: database-converter

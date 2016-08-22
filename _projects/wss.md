@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-02-02 17:00:22-06:00
+date: 2011-02-02
 excerpt: Ajax word search puzzle solver
 layout: project
 site: /wss

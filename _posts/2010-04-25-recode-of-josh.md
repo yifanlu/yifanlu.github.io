@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-04-25 22:30:26-06:00
+date: 2010-04-25
 layout: post
 slug: recode-of-josh
 title: Recode of Josh

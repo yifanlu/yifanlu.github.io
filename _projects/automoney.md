@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/automoney.zip
 author: yifanlu
 comments: true
-date: 2008-02-19 17:00:45-06:00
+date: 2008-02-19
 excerpt: A bot software designed for Winzy and WebRidesTV.
 layout: project
 slug: automoney

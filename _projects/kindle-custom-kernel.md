@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/kindle-custom-kernel.zip
 author: yifanlu
 comments: true
-date: 2011-06-25 17:00:36-06:00
+date: 2011-06-25
 excerpt: Recovery kernel for Kindle 3
 layout: project
 slug: kindle-custom-kernel

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2014-02-17 06:57:35-06:00
+date: 2014-02-17
 layout: post
 slug: how-to-disassemble-vita-game-cartridges
 title: How to Disassemble Vita Game Cartridges

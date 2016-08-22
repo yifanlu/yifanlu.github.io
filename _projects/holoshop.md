@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2008-12-23 17:00:42-06:00
+date: 2008-12-23
 excerpt: An addon of HoloCMS coded from scratch that is the best webshop ever.
 layout: project
 slug: holoshop

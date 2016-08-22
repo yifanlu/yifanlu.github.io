@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-01-12 05:10:19-06:00
+date: 2015-01-12
 layout: post
 slug: reversing-gateway-ultra-first-stage-part-2
 title: Reversing Gateway Ultra First Stage (Part 2)

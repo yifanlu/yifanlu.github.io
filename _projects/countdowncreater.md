@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/countdowncreater.zip
 author: yifanlu
 comments: true
-date: 2005-10-19 17:00:51-06:00
+date: 2005-10-19
 excerpt: Give it the time and date, and it will generate a cool HTML countdown clock.
 layout: project
 slug: countdowncreater

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2009-10-17 16:55:58-06:00
+date: 2009-10-17
 layout: post
 slug: goodbye-habbo
 title: Goodbye Habbo!

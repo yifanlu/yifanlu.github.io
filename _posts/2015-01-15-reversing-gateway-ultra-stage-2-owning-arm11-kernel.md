@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-01-15 09:26:43-06:00
+date: 2015-01-15
 layout: post
 slug: reversing-gateway-ultra-stage-2-owning-arm11-kernel
 title: 'Reversing Gateway Ultra Stage 2: Owning ARM11 Kernel'

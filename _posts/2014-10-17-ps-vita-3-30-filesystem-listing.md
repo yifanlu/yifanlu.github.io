@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2014-10-17 18:49:57-06:00
+date: 2014-10-17
 layout: post
 slug: ps-vita-3-30-filesystem-listing
 title: PS Vita 3.30 Filesystem Listing

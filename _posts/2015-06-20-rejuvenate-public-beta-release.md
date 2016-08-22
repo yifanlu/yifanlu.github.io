@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-06-20 21:37:52-06:00
+date: 2015-06-20
 layout: post
 slug: rejuvenate-public-beta-release
 title: Rejuvenate Public Beta Release

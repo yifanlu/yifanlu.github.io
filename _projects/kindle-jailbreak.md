@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/kindle-jailbreak.zip
 author: yifanlu
 comments: true
-date: 2011-02-21 17:00:52-06:00
+date: 2011-02-21
 excerpt: Kindle 3.2.1 (and below) jailbreak
 layout: project
 slug: kindle-jailbreak

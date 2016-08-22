@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/holocatgen.zip
 author: yifanlu
 comments: true
-date: 2008-07-07 17:00:41-06:00
+date: 2008-07-07
 excerpt: Converts old flat-file based retro database to the new Holograph MySQL format.
 layout: project
 slug: holocatgen

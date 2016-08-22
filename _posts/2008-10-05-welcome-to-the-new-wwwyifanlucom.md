@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2008-10-05 22:03:41-06:00
+date: 2008-10-05
 layout: post
 slug: welcome-to-the-new-wwwyifanlucom
 title: Welcome to the new www.yifanlu.com!

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-08-08 06:21:23-06:00
+date: 2015-08-08
 layout: post
 slug: rejuvenate-for-unity-and-vitatv-support
 title: Rejuvenate for Unity (and VitaTV support)

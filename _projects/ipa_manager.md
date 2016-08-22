@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/ipa_manager.zip
 author: yifanlu
 comments: true
-date: 2008-09-22 17:00:10-06:00
+date: 2008-09-22
 excerpt: Manages, download, update, and install IPAs for iPhone/iPod Touch IPA apps.
 layout: project
 published: false

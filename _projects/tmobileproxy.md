@@ -2,7 +2,7 @@
 archive: https://sites.google.com/a/yifanlu.com/downloads/TmobileFreeInternet.apk
 author: yifanlu
 comments: true
-date: 2011-01-03 17:00:16-06:00
+date: 2011-01-03
 excerpt: Free internet with T-Mobile on iPhone
 layout: project
 slug: tmobileproxy

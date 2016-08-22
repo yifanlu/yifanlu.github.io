@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2013-12-19 05:20:47-06:00
+date: 2013-12-19
 layout: post
 slug: ps-vita-nand-pinout
 title: PS Vita NAND Pinout

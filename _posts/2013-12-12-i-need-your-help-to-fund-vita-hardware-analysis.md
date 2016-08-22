@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2013-12-12 20:57:46-06:00
+date: 2013-12-12
 layout: post
 slug: i-need-your-help-to-fund-vita-hardware-analysis
 title: I need your help to fund Vita hardware analysis

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-02-16 22:35:20-06:00
+date: 2011-02-16
 layout: post
 slug: creating-a-psp-freecheat-memory-patch
 title: Creating a PSP FreeCheat Memory Patch

@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2016-08-05 23:34:00-06:00
+date: 2016-08-05
 layout: post
 slug: henkaku-koth-challenge
 title: HENkaku KOTH Challenge

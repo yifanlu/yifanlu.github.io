@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2010-05-09 23:41:28-06:00
+date: 2010-05-09
 layout: post
 slug: josh-1-0-released
 title: Josh 1.0 Released

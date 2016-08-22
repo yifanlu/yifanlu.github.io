@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2015-06-21 05:26:20-06:00
+date: 2015-06-21
 layout: post
 slug: hacking-the-ps-vita
 title: Hacking the PS Vita

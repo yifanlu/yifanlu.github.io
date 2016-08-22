@@ -1,7 +1,7 @@
 ---
 author: yifanlu
 comments: true
-date: 2011-01-30 18:57:06-06:00
+date: 2011-01-30
 layout: post
 slug: welcome-to-yifan-lu
 title: Welcome to yifan.lu!
