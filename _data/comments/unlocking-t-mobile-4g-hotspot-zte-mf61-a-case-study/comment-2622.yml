@@ -1,0 +1,13 @@
+date: '2012-03-08T11:07:03.000Z'
+email: fbe52a0898e2ca16c652a683a4c140f8
+hidden: ''
+message: 'afaict, objudmp can disassm raw binary, regardless of ELF sections/segments.
+  Of course you will need to know what is the ISA/arch of the raw binary.
+
+
+  e.g., for ARM:
+
+
+  objdump -D --target binary -marm'
+name: jigsaw
+url: ''

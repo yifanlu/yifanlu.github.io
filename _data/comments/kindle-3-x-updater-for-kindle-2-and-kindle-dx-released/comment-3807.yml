@@ -1,0 +1,10 @@
+date: '2012-11-01T02:04:54.000Z'
+email: fe88b7c59292caef9384714d4b4795c5
+hidden: ''
+message: "Hi Yifan,\nThanks for your efforts! I know you are busy, but could you give\
+  \ me a few instructions about how to update my dx from 3.2.1 to 3.4.\nAnd I'm sorry\
+  \ to bother you one more things that is about \"Open it in a hex editor and change\
+  \ byte at offset 0x0C to 0x02 for K2, 0x03 for K2i, 0x04 for DX, 0x05 for DXi or\
+  \ 0x09 for DXG.\" But I cannot find offset 0x0C in Winhex. \nThank you very much!"
+name: Elvin
+url: ''

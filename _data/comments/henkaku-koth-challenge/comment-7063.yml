@@ -1,0 +1,16 @@
+date: '2016-08-06T12:15:16.000Z'
+email: 1646ee487cc2e84b8bf038266adbe965
+hidden: ''
+message: 'Without reversing it, probably they just patch the kernel memory with a
+  testkit/devkit memory portion memory to enable fake selfs. That might explain why
+  now core dumps from a testkit works on a retail console. I''m assuming this, because
+  if i were one of the security experts, that Sony hired while developing the console,
+  the first thing i would suggest is they to completely remove all the unused dev/debug
+  routines available on the retail console, in that way an attacker can''t use any
+  dev/debug routine floating in the binary image.
+
+  I really hope they (molecule team) didn''t exploit the TEE (I''m saying that due
+  the "Stage 3 encrypted" binary that KoriTama hinted...) and I really hope that Sony
+  used TEE for the keys in a crypto context...'
+name: Giovanni (@Wargio)
+url: http://twitter.com/Wargio

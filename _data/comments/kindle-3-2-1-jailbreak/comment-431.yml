@@ -1,0 +1,36 @@
+date: '2011-06-09T11:02:42.000Z'
+email: 75666c4cf8c060b221a7999756cb9648
+hidden: ''
+message: 'It works like a charm. Thanks a lot for your great work, yifan!
+
+  I''ve JB-ed it, installed usbnetwork and DK on a KSO.
+
+
+  Several tips/suggestions:
+
+  1) Before applying the JB, turn off the wi-fi. (I got 5 or 6 failed trials before
+  I finally noticed this).
+
+
+  2) If you use Windows, take a look at the drive labelled as "Kindle" when your K3
+  connected to your computer, and write down it, for example "E:"; then after you
+  restart the K3 and connect K3 to PC with USB cable, run the following script in
+  a CMD window:
+
+  for /l %i in (1,1,10000000) do dir E: &amp;&amp; copy update_jailbreak_0.5_k3w_install.bin
+  E: &amp;&amp; exit
+
+  (it keeps trying to copy the file to that drive and exit once it''s done).
+
+
+  3) If you wanna install Duokan (for Chinese user), you need first install usbnetwork-0.33,
+  and copy DK''s folders to root of Kindle drive. Then telnet/ssh to kindle via usb
+  or wifi to run the following script on your kindle:
+
+  sh /mnt/us/DK_System/install/install.sh
+
+  (this is just the installation script of Duokan, which cannot be executed by its
+  update bin file, so you need to do it manually. Now you can "reboot" your kindle
+  to make it work).'
+name: elale.smth
+url: ''

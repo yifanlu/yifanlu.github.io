@@ -1,0 +1,15 @@
+date: '2011-11-09T03:06:45.000Z'
+email: 256ca7027642ca1257ac93bae6f5de00
+hidden: ''
+message: 'Thanx Yifan, I have been working on getting an http tunnel going :)
+
+
+  I set up a squid proxy http server on my desktop. I downloaded connect.c and amusing
+  that in conjunction with ssh to tunnel ssh over http. i have a domain name for my
+  ip that includes the word tmobile.
+
+
+  However, this works over wifi but the connect.c tunnel fails on edge. Would you
+  have any idea why?'
+name: Macuseri686
+url: ''

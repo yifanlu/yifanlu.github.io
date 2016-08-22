@@ -1,0 +1,8 @@
+date: '2014-01-11T18:35:47.000Z'
+email: 9f3d973cc843a9a0125889e217bf9dfc
+hidden: ''
+message: Nice! We can safely assume the eMMC uses per Vita unique keys, likely AES.
+  What would perhaps be interesting as well is to see what happens next after the
+  Go Idle command. Those commands itself would not be encrypted, right?
+name: ByteMaster
+url: ''

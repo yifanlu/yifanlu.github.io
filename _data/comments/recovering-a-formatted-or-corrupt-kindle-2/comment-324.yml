@@ -1,0 +1,20 @@
+date: '2011-04-25T04:08:34.000Z'
+email: 0766d28adbbe97c39868829df73a3286
+hidden: ''
+message: "Wow, great information, thanks!  I understand that when you hold the [Enter]\
+  \ key on bootup that you get into a recovery context that shows up on the kindle\
+  \ 3's screen.  And one of the options in this context is \"E -&gt; Export over USB\"\
+  .  A couple of questions:\n\n  (1) As far as you know, is this \"E -&gt; Export\
+  \ over USB\" option the same as the \"3. Load MMC0 over USB storage\" option available\
+  \ via the RS232 port's recovery mode?\n\n  (2) Do you have any idea what instructions\
+  \ are issued (presumibly by recovery-util) to put the kindle into a mode where it\
+  \ exports the entire MMC0 via USB.  Imagine a small update style patch that simply\
+  \ enables full MMC0 via USB.  That way, as soon as you get a new kindle, you can\
+  \ run that one update and get full access to the NAND flash's root file system,\
+  \ mount it to a workstation, and customize the root filesystem as you see fit. \
+  \ For example, copy over some binaries, install some init.d scripts.  Or even make\
+  \ a full block-by-block backup.\n\nIt would be so awesome to have a machine of this\
+  \ formfactor with an e-ink display but was easier to backup/restore.  But I presume\
+  \ there isn't much of a market for such an open device."
+name: bdaddy
+url: ''

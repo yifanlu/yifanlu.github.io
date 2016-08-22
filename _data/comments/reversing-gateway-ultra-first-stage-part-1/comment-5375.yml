@@ -1,0 +1,13 @@
+date: '2015-01-12T18:07:56.000Z'
+email: 731e5efa432849f0e03d40a2fb47fc49
+hidden: ''
+message: 'Ah, some systems place the .rodata and the .text into the same ELF program
+  segment which is allocated in an executable page. I guess that’s not the case here.
+
+
+  And after working on the Vita for three years, I can assure you it is much more
+  secure than the 3DS (from my understanding of the system reading 3dbrew and talking
+  with people on #3dsdev). Better memory isolation. Better layout randomization. And
+  so on…'
+name: yifanlu
+url: http://yifanlu.wordpress.com

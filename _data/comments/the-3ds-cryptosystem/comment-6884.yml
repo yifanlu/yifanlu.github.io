@@ -1,0 +1,12 @@
+date: '2016-05-02T01:11:27.000Z'
+email: 9f3d973cc843a9a0125889e217bf9dfc
+hidden: ''
+message: '"Unfortunately, there are still a bunch of shiny keys hidden in the boot
+  ROM (which is also disabled like the OTP after use; no mistakes found yet)."
+
+
+  Can you, either as an update, or as a separate article, shed some more light on
+  the issues with dumping the boot ROM and the remaining keys. For instance, will
+  an SRESET type hack be possible on the 3DS like was done on the WiiU?'
+name: Byte
+url: ''

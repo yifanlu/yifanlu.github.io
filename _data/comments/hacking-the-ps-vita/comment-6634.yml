@@ -1,0 +1,26 @@
+date: '2015-12-29T23:04:08.000Z'
+email: 9aed382ef5c54684b62ed1bc50256051
+hidden: ''
+message: 'Maybe this can lead to anything?
+
+
+  http://www.scei.co.jp/psvita-license/libpng.html 1.2.46
+
+
+  http://www.libpng.org/pub/png/libpng.html
+
+  Vulnerability Warning
+
+  Virtually all old-branch libpng versions through 1.5.25, 1.4.18, 1.2.55, and 1.0.65,
+  respectively, have a potential out-of-bounds read in png_check_keyword()
+
+
+  Vulnerability Warning
+
+  Virtually all libpng versions through 1.6.19, 1.5.24, 1.4.17, 1.2.54, and 1.0.64,
+  respectively, have a potential pointer overflow/underflow in png_handle_sPLT()/png_handle_pCAL()
+  (and in png_handle_iTXt()/png_handle_zTXt() in the pre-1.6 branches), and all such
+  versions likewise have a bug in their png_set_PLTE() implementations that left it
+  open to the out-of-bounds write'
+name: Vladimir
+url: ''

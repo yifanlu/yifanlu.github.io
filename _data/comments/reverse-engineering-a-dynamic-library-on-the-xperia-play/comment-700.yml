@@ -1,0 +1,16 @@
+date: '2011-08-25T05:27:54.000Z'
+email: 57ed73ccebd016ee0e4d5e906d674a50
+hidden: ''
+message: 'Well it is a dalvik app which uses one big so library where all the minecraft
+  happens. Mojang is planning to release MC to other android phones as well and the
+  delay seems to be marketing related. So that''s why they kept dependencies to the
+  minimum.
+
+
+  Touchpad input is handled by the functions in input.h from the NDK. So touchpad
+  and touchscreen get the same events just with different sourceType attributes.
+
+
+  I will keep pn reversing'
+name: martynas
+url: ''

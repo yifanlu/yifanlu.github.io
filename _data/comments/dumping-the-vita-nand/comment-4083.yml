@@ -1,0 +1,8 @@
+date: '2014-01-14T07:41:28.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: Thanks I know how the vita capture mod works. It uses the test pads for the
+  video signals going to the oled display and uses a fpga chip to decode it. The mystery
+  port has no video signals but I think it may be USB otg
+name: Yifan Lu
+url: http://yifan.lu/

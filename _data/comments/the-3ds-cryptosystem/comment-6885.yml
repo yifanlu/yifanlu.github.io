@@ -1,0 +1,10 @@
+date: '2016-05-02T07:10:01.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: 'The short answer is that the bootrom is disabled by hardware early in the
+  boot process so by the time we have control, we cannot access it. And any reset
+  we know how to do also resets the cores we have code execution in so resetting makes
+  us lose the control. If we find a way to reset while keeping control of execution
+  in some processor then it might be a way in. '
+name: Yifan Lu
+url: http://yifan.lu/

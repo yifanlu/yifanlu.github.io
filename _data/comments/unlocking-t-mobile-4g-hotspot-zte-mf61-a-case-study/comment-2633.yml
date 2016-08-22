@@ -1,0 +1,17 @@
+date: '2012-03-09T13:18:08.000Z'
+email: 54d2ab5d6aa96276628340f84f2fbbf0
+hidden: ''
+message: 'it depends on the following factors:
+
+  1. is the jmp PC-related?
+
+  2. is the jmp GP-related?
+
+  3. or jmp table? (ARM specific)
+
+  4. do u know the load address of the binary?
+
+
+  The topic of locating runtime address of symbols deserves a dedicated paper/blog.'
+name: jigsaw
+url: ''

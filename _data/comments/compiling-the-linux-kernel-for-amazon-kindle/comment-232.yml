@@ -1,0 +1,9 @@
+date: '2011-02-11T05:08:43.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: Amazon removed kindle configuration files from new source releases. Last
+  one I found working was the 3.0.0 source. (I don't know if they took that out too).
+  Also, don't blindly copy paste the configuration file from 3.0.0 into 3.0.1 as stuff
+  changed.
+name: Yifan Lu
+url: http://yifan.lu/

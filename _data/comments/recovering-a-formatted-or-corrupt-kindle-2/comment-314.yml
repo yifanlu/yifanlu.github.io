@@ -1,0 +1,23 @@
+date: '2011-04-23T00:19:03.000Z'
+email: 0766d28adbbe97c39868829df73a3286
+hidden: ''
+message: 'I''ve enjoyed reading your posts on kindle hacking.  I''m looking forward
+  to getting a kindle 3 wifi myself so I''m learning from you and others as much as
+  possible beforehand.  One of the things I''m most concerned about is how to perform
+  a full system-image type backup/restore of the device in case things go wrong.
+
+
+  One thing caught my eye as I was reading your procedure above.  You said, "I moved
+  the Kindle over to a Linux computer because it is easier".
+
+
+  And then you show running dd against "/dev/sdX2".  Does this imply that the kindle''s
+  UMASS subsystem is actually serving up the full 2gbyte flash device?  If so, is
+  it not possible to backup the entire flash device by accessing "/dev/sdX" directly?  Did
+  you put the kindle in a special mode to get it to serve up the full flash device?
+
+
+  Or did I misunderstand you?  If so, what is your understanding of the structure
+  of the data accessible via UMASS vs the structure of the flash device itself?'
+name: bdaddy
+url: ''

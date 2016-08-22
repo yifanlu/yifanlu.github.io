@@ -1,0 +1,15 @@
+date: '2012-03-18T23:07:33.000Z'
+email: a3dbbd5d04e1c764097785150fb41deb
+hidden: ''
+message: 'just tested with ICS again and the proxy does work but the automatic setting
+  of the APN is broken.  Normally when proxy is started, it will automatically set
+  the correct proxy settings in APN and then when proxy is stopped, it will reset
+  APN proxy settings back to stock.  That part is broken in ICS.
+
+
+  to clement:  most likely, the proxy is running perfectly on your phone.  But your
+  imei triggers the tmo firewall to block transmissions.  Only tmo can unblock that
+  and the only way I know is to pay tmo.  and when you stop paying, your imei will
+  be blocked again.'
+name: ken
+url: ''

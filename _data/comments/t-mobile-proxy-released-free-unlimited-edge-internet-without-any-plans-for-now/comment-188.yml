@@ -1,0 +1,10 @@
+date: '2011-01-09T16:46:28.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: After you install the package from Cydia, Ezie, you can use the internet
+  through EDGE (if all goes right). Just disable Wifi and see if internet works. If
+  not, install my configuration bundle linked above and try again. And the proxy is
+  running on your phone. It's a Python proxy (Tiny HTTP Proxy) modified to add "tmobile"
+  to all URLs. Since it's not an external proxy, you won't lose any speed.
+name: Yifan Lu
+url: http://yifan.lu/

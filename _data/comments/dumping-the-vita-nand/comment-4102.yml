@@ -1,0 +1,9 @@
+date: '2014-01-26T22:49:22.000Z'
+email: 859ce9dd4497b24b9aeb9e400a1034ab
+hidden: ''
+message: I think one part on NAND is used to store downloaded pkg, cause in PS3 we
+  need 2 x the size of the package we downloading (download and installation) but
+  not on PSVita, its seem to be the package is stored in reserved area for downloading
+  and after decompressed on the memcard.
+name: Zer01ne
+url: ''

@@ -1,0 +1,8 @@
+date: '2015-05-01T10:21:09.000Z'
+email: f40bfd159873f1dadba34e8c3f32d9fa
+hidden: ''
+message: About ClCertA, where does the ssl module store the CTR for decrypting ctr-common-1-cert.bin
+  and ctr-common-1-key.bin? The bootrom seems to initialize the keyslot 0x0d already,
+  so the CTR is the only piece missing.
+name: (null)
+url: ''

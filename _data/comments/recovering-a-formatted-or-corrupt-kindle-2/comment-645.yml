@@ -1,0 +1,7 @@
+date: '2011-08-17T12:16:48.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: No. First you need to enable/port the driver on the 2.6.22 kernel (k3 uses
+  2.6.26 and has better wireless drivers).
+name: Yifan Lu
+url: http://yifan.lu/

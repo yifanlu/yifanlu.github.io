@@ -1,0 +1,11 @@
+date: '2015-05-29T09:02:16.000Z'
+email: 010f49788129b94692d48449e2ab40aa
+hidden: ''
+message: 'Compiled and executed BallMazeDemo on both PS Vita and Sony Tablet P. I
+  notice both PSM Dev assistants remember BallMazeDemo in their starting window, with
+  a little difference : Sony Tablet P requires systematically a network access to
+  check the license in order to run it. PS Vita accepts to run it without network
+  access for around 24 hours, after that it requires it again. I wonder if some ''magic''
+  proxy could serve license again once Sony servers will stop serving them...'
+name: wonre
+url: ''

@@ -1,0 +1,10 @@
+date: '2011-05-20T02:53:22.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: It's possible to use the kindle to redirect the usbnetwork to wifi adhoc
+  host. However, you need to compile a custom kernel with bridge and/or iptables masquerade
+  enabled. It is also possible to set the wifi chip into master (router) mode. It's
+  a bit complicated, and I may write about it one day. For now, I'm afraid you can
+  research this on your own.
+name: Yifan Lu
+url: http://yifan.lu/

@@ -1,0 +1,10 @@
+date: '2015-02-10T14:27:25.000Z'
+email: 44a85bad3fe02d39b4ad434be7396dbd
+hidden: ''
+message: "My last post was crap, I dive in thats code little deeper last day, and\
+  \ understand this. But anyway just my thoughts. launcher.dat must somewhere call\
+  \ Red GW card, maybe \n*(char *)(pdn_regs + 0x230) = 2 /// Power UP Red Card\nfor\
+  \ (i = 0; i &lt; 16; i += 2); // busy spin /// Wait until ARM9 talk with Red GW\
+  \ Card\n*(char *)(pdn_regs + 0x230) = 0 /// Power DOWN Red Card"
+name: Dakhar
+url: ''

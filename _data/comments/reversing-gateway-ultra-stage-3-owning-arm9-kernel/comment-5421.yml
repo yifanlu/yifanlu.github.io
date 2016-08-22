@@ -1,0 +1,9 @@
+date: '2015-01-18T01:27:26.000Z'
+email: 5e6cfc57d870dc5ad5178103d267f69c
+hidden: ''
+message: Its possible to make a C program to ‘decrypt’ the payload from launcher.dat
+  ? I am trying to write one but after it goes through my file, my ida cant decompile
+  it and its just a lot of junk, any idea why ? This is my code so far http://pastebin.com/31DRgVhc
+  , I know that it looks ugly.
+name: VP
+url: ''

@@ -1,0 +1,20 @@
+date: '2011-08-24T22:42:21.000Z'
+email: 57ed73ccebd016ee0e4d5e906d674a50
+hidden: ''
+message: 'I see. I have done some more patching, and it really seems it does work.
+  (: I am trying to make MinecraftPE look-around-controls work on my Nexus One. It
+  seems that MPE uses the code from SonyErricsson tutorial to handle touch events
+  (source code - http://forum.xda-developers.com/showthread.php?t=1045374). The thing
+  is that this code handles both - touchscreen and xperias touchpad events. I think
+  somewhere MPE just checks if the event is from touchscreen and then it discards
+  it. I want to change this behaviour obviously. (:
+
+
+  Anyways, you mentioned that opcode for NOP is 00 00 A0 E1. I also found that its
+  00 BF. Do you know what is the difference between these two?
+
+
+  And one more thing, do you know what are the commands ITE HI or ITE NE for? I cant
+  really find reference for them and I see these two quite often.'
+name: Martynas
+url: ''

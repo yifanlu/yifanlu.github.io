@@ -1,0 +1,18 @@
+date: '2016-04-11T20:07:10.000Z'
+email: 0cdb07d9d8c9118f1689484384d1f8d7
+hidden: ''
+message: 'Oh, also I found unproper references to Kernel11:
+
+  "key-slot 0x3D, KeyX set by boot ROM, KeyY set by Kernel11" -&gt; The KeyY is set
+  by Process9
+
+  "In Kernel11, slot 0x0 is used with an RSA operation" -&gt; It''s Process9 which
+  performs RSA operations.
+
+  "The OTP region is disabled early in the boot process: Kernel11 on the old 3DS"
+  -&gt; Kernel9, not Kernel11
+
+
+  The ARM11 does not have access to AES, RSA or OTP registers.'
+name: motezazer
+url: ''

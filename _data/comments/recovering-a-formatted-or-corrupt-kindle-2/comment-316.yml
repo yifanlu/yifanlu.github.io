@@ -1,0 +1,12 @@
+date: '2011-04-23T21:18:26.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: First of all, the K3 recovery port is different. It uses 1.8V instead of
+  3.3V, using 3.3 WILL burn it. Which brings the second difficulty to be finding a
+  1.8V TTL to RS232/USB converter. I haven't found one yet and don't have the time
+  to make one, so I haven't done a lot of work on the K3. To export the filesystem,
+  you CAN dd from SSH, but a better way is using the recovery shell to export directly
+  over USB, but in order to do that, you need to patch the kernel to remove the password
+  protection on the shell. I will do that one day, but I won't be able to test.
+name: Yifan Lu
+url: http://yifan.lu/

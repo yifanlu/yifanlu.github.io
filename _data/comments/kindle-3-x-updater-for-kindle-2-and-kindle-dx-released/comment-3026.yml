@@ -1,0 +1,10 @@
+date: '2012-06-01T03:37:46.000Z'
+email: 468135b21eb3f2c398aaa85ca53b0197
+hidden: ''
+message: Like qwas I'm trying to restore a Kindle DX from 3.2.1 back to 2.5.8.  I
+  put the "update_restore-os.bin" in the root and went to Menu/Settings/Update but
+  then it ended up with a loop and updating over and over.  I ended up in Recovery
+  Mode and can now connect the Kindle to the PC.  The Kindle directory is blank.  Do
+  I need the rootfs.img on the Kindle as well as the update_restore-os.bin?
+name: Nick
+url: ''

@@ -1,0 +1,22 @@
+date: '2015-12-19T12:58:24.000Z'
+email: 493c1d2b965180c1117230eb99d0c97b
+hidden: ''
+message: 'I have a DXG that was on 2.5.8 initially. I have updated to 3.1 and in that
+  process I saved the "output" folder content on a couple of safe locations. It contains
+  "rootfs.img" (409624 kB) and "update_restore-os.bin" (285429 kB).
+
+  After that I have updated to 3.3 using Amazon update (changed ID bit in the file
+  to match my device ID).
+
+
+  Now all is working. Startup is sluggish, but I am fine with that. My issues is that
+  I have a nagging feeling that the actual display resolution might be lowered from
+  2.5.8. I have a pdf file with graphics and the small text it looks "broken", but
+  I don''t have a picture of hot it looked before.
+
+  USB Network doesn''t seem to work on my DXG.
+
+
+  How can I go "back" to 2.5.8 to actually visually check this issue?'
+name: SoNic67
+url: ''

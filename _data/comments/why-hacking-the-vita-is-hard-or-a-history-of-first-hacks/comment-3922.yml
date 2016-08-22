@@ -1,0 +1,18 @@
+date: '2013-09-10T22:02:55.000Z'
+email: 05daa960e64acc5ab29bddabffeb13fc
+hidden: ''
+message: 'FYI, the first Wii hack wasn''t quite a hardware RAM dumper - it was a software
+  RAM dumper running in the (insecure) Gamecube mode, plus a hardware glitch (shorting
+  out address pins) to get access to RAM that you normally wouldn''t have access to
+  from Gamecube mode. Same as the first PS3 hack: shorting out a RAM line to produce
+  a random glitch that  (preventing a write to the page table) puts the hypervisor
+  memory protection model into an inconsistent state that could be abused to break
+  out of the Other OS sandbox. Both of those require access to the RAM pins (and unhashed/insecure
+  RAM) but do not require a full hardware sniffer/injector, which would be orders
+  of magnitude harder to design/use.
+
+
+  OTOH, the Wii U exploits didn''t require any hardware tricks, mostly due to similarities
+  to the Wii and other devices.'
+name: marcan
+url: http://fail0verflow.com

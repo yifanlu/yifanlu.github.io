@@ -1,0 +1,24 @@
+date: '2015-06-22T16:07:31.000Z'
+email: 010f49788129b94692d48449e2ab40aa
+hidden: ''
+message: 'This first release is for those who obtained a publisher key (that means
+  you got an email and you could create a seed then a key for each source sample you
+  managed to compile with psm) or their friends. There will be a later second release
+  of additional tools for those not having a publisher key or a friend having one.
+
+  Script setup.bat does some key retrieval to sign virtualdefiler corretly then asks
+  for your DA version, it s not asking for a password. Just type in 1.15 then press
+  the enter key (in your case). You should obtain 2 vitadefiler.* files in the directory
+  (they will be sent to the vita through run_homebrew.bat).
+
+  Before dropping hello_world.elf on top of run_homebrew.bat, activate wifi on your
+  vita (test with browser that you can reach google.com for example), connect it with
+  usb to pc and start dev assistant on vita (it will ask sony server if you have dev
+  certificate (will stay valid 7 days, after that will reask it again), then when
+  the bat file will try launching debugger it will ask for publisher key from sony
+  server). If it stops because you don t have publisher key you will have to wait
+  for second future release of the hack. If you have publisher key but it didn t start
+  hello world, try running blazedemo the normal way and retry (will force to retrieve
+  the publisher key correctly which will stay valid for 24 hours).'
+name: wonre
+url: ''

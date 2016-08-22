@@ -1,0 +1,19 @@
+date: '2015-05-23T23:32:17.000Z'
+email: 1ec92749e402a431922fc719c54505ab
+hidden: ''
+message: '@NoPatience - You made me chuckle a bit, Good job.
+
+
+  FYI, I''m not a hacker, I''m a programmer. I have a bit more RE experience than
+  most, but not enough to tackle the vita with next to zero info on what the OS even
+  is. An exploit is useless without a payload or any idea on what the payload should
+  be.
+
+
+  Anyways, I''ll be more specific at risk of post nuke. CVE-2010-4159. Based on the
+  license on Sony''s OSE site, it''s entirely possible this vulnerability is in the
+  Mono VM used in PSM1. Then again, I have no clue what format shared libraries are
+  in on the vita, so I have absolutely zero clue how to go about testing whether this
+  is a possible exploit.'
+name: Chaos
+url: ''

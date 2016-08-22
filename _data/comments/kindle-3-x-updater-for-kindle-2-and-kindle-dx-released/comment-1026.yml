@@ -1,0 +1,16 @@
+date: '2011-11-18T00:37:50.000Z'
+email: 53ae71c89d2d2fb9ddcc06fcf3709027
+hidden: ''
+message: 'Hi, theWoosh,
+
+  There is a post in Chinese about this: http://www.hi-pda.com/forum/viewthread.php?tid=864068&extra=page%3D1
+
+
+  You don''t need to uninstall 3.2.1 to install duokan. Just use the latest duokan
+  release for DXG (release on May 20). Copy DK_system, DK_documents,DK_pictures and
+  emergency.sh into your kindle root directory, and restart your kindle. You may need
+  to restart your DXG several times until the Duokan startup screen shows up.
+
+  The file emergency.sh can be downloaded here: http://www.hi-pda.com/forum/attachment.php?aid=982889'
+name: chen
+url: ''

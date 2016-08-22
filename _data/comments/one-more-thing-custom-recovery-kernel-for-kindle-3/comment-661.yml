@@ -1,0 +1,47 @@
+date: '2011-08-18T20:49:34.000Z'
+email: d463c940a9dd6f899e676c872d6226f3
+hidden: ''
+message: 'Hi Yifan
+
+
+  Thank you very much for the guide on "upgrading" a K2 to a K3 and the guide to recovering
+  a K2 using the serial port.
+
+
+  I''ve got a couple of kindles (mainly just ones people have given to me due to being
+  broken or them upgrading) and as a result I experiment with them quite a bit.
+
+
+  I recently ran out of space on my K3''s system partition... so I figured I would
+  resize the partition to use more of the user partition. For this I turned to your
+  custom recovery kernel; I booted the kindle, held down enter and then at the menu
+  pressed alt+e.
+
+
+  When I plug the kindle into my Ubuntu PC, it doesn''t show up in Gparted. In dmesg
+  it says :
+
+  "
+
+  [2198375.769468] scsi35 : usb-storage 1-4:1.0
+
+  [2198376.762335] scsi 35:0:0:0: Direct-Access     Kindle   Internal Storage 0100
+  PQ: 0 ANSI: 2
+
+  [2198376.763073] sd 35:0:0:0: Attached scsi generic sg3 type 0
+
+  [2198376.771378] sd 35:0:0:0: [sdd] Attached SCSI removable disk
+
+  "
+
+
+  When I try and access the device directly using Gparted it says "No Medium Found".
+  The same is true for dd.
+
+
+  Any ideas what could be wrong ?
+
+
+  Thanks :)'
+name: Aaron Scheiner
+url: ''

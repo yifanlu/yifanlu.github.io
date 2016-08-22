@@ -1,0 +1,13 @@
+date: '2012-02-20T08:14:19.000Z'
+email: 36bbcc2a960ad60c76636df1b6ef00f4
+hidden: ''
+message: 'Cool script. But does it check for existing usernames in the domain? i.e.
+  john.smith@abc.com is already registered and a new user still registers as john.smith
+
+
+  What''s the error handling/exception for this incidence?
+
+
+  Thanks'
+name: John
+url: ''

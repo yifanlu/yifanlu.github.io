@@ -1,0 +1,16 @@
+date: '2014-01-16T14:55:48.000Z'
+email: e1bafc0f3dcd471912e04b76b353ad83
+hidden: ''
+message: "Hmm… looking at those ps vita video out mod which is using those pins I\
+  \ suspected to go into the NAND, that looks so strange, it makes no sense, regardless.\n\
+  \nThe mystery chip (SCEI 1148KM458 or 1144KM427) you mention on your blog, it could\
+  \ be related to the ps vita proprietary game cartridge, I have seen no direct lines\
+  \ to the CXD5315GG plus this strange chip sits directly on the opposite side of\
+  \ the slot, this would vouch for some kind of controller or a security chip.\n On\
+  \ techinsights.com they speculate this chip to be an AKM magnetic compass, but this\
+  \ is in my opinion bullsh*t as there is already the gyro (st? 3GA51H) and the 3\
+  \ axis mems (Kionix KXTC9). Also why would a magnetic compass need to be emi shielded?\
+  \ This limits its capabilities.\n Plus there is another strange chip (st 32P10SoE\
+  \ / GK09093) which could possibly be the magnetic compass."
+name: Thrawn
+url: ''

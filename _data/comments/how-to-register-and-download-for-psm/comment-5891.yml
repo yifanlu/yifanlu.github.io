@@ -1,0 +1,32 @@
+date: '2015-06-17T13:52:21.000Z'
+email: 2a5b0319ddc021bfbc3dd4444b7f42a8
+hidden: ''
+message: 'If anyone interested, the method I used for 3.18 was actually without using
+  charles proxy or whatever similar. I just copied the psm dev from a 3.51 to a ps3
+  via content manager, then copied it back to 3.18, obviously it started screaming
+  that it needs to be updated (no way with 3.18), then transferred some psm assistant
+  pkgs to 3.18 via the same ps3 -- they are drm-less as it seems. Probably copying
+  the assistant from 3.51 was unnecessary and the packages themselves would suffice,
+  don''t know, can try that when the laziness subsides.
+
+
+  The package names I transferred are these, you can try yourself on a 3.18, they
+  are perfectly googleable:
+
+
+  IP9100-PCSI00007_00-PSSUITEDEV000000.pkg (8286112 bytes)
+
+  IP9100-PCSI00007_00-PSSUITEDEV000000-A0114-V0100-29622fe379594b215a038ed988c7c53958df33a0-PE.pkg
+  (16871424 bytes)
+
+
+  ...in that particular order. I just installed them on a cfw ps3 via the package
+  manager, and copied them over to vita. The list about is probably redundant, you
+  probably can throw away one of them w/o consequences -- not sure about that, just
+  loaded them both just in case.
+
+
+  IP9100-PCSI00011_00-PSMRUNTIME000000-A0200-V0100* (the v2 runtime), on the other
+  hand, seems to be DRM-protected -- copying that over didn''t work.'
+name: Aldus Thingave
+url: ''

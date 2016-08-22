@@ -1,0 +1,12 @@
+date: '2011-08-23T14:48:19.000Z'
+email: 57ed73ccebd016ee0e4d5e906d674a50
+hidden: ''
+message: Great findings. Especially the last tip on debugging. I do it even more primitive.
+  I disassemble so library using IDA Pro. Then I find the place where I would like
+  to change the code. Since I am using evaluation version I am not allowed to save
+  my changes. So I open the same library using HEX editor and do the changes. I don't
+  know if this even works. Because I haven't done any useful patching yet. What do
+  you think? Will hexedited library still work? Is there some checksums in ELF file
+  that should be recalculated?
+name: martynas
+url: ''

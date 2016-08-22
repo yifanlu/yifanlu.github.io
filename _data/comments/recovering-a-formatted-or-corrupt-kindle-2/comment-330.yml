@@ -1,0 +1,11 @@
+date: '2011-04-26T04:39:02.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: '1) no. Export USB just shows the fat partition
+
+
+  2) you can always ssh and use dd to copy the filesystem. You need a custom kernel
+  to export mmc without a password. No point doing it outside of bootup because you
+  can''t recover if you can''t access the recovery script.'
+name: Yifan Lu
+url: http://yifan.lu/

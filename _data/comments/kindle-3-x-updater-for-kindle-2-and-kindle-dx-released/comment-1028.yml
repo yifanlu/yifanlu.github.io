@@ -1,0 +1,18 @@
+date: '2011-11-21T14:05:06.000Z'
+email: 668fc223d5a8c981b774018d3eed1529
+hidden: ''
+message: 'Hello, apparently nobody was hit by unability to install k3 hacks on kDXG,
+  or it is too "dummy" question for gurus :-)
+
+  My (it seems that working) solution was to take an older update, one in version
+  for k3g and one for KDXG and compare them. The result was difference just in one
+  byte (part of SN. check).
+
+  By editing this byte in .bin file (fonts, screensaver, usbnet, language pack, launchpad,
+  TTS) I''ve enabled installing k3g package on updated KDXG - so now I have DXG speaking
+  czech including TTS :-)
+
+  Only problem I have with updated firmware is PDF viewer crashing on large PDFs (40MB+),
+  unfortunately these technical books were exactly the reason, why I bought DXG.'
+name: Hroch
+url: ''

@@ -1,0 +1,12 @@
+date: '2015-06-22T09:18:23.000Z'
+email: 010f49788129b94692d48449e2ab40aa
+hidden: ''
+message: 'Brillant work. Could make it work with fw351+da115 and fw318+da114, but
+  i noticed heavy dependance on network requests from sony servers (the 7 days long
+  dev certificate and the 24 hours long publishing key), so no way for now to keep
+  vita in airplane mode. My guess is that on July 15th Sony servers will stop responding.
+
+  BTW here is a tip for when run_homebrew.bat crashes immediately : just manually
+  start vitadefiler once in dev assistant, then homebrew.bat will work again correctly.'
+name: wonre
+url: ''

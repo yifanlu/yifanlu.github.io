@@ -1,0 +1,18 @@
+date: '2012-02-25T22:26:05.000Z'
+email: 686f74b441f884008e4b6cc27e4a2652
+hidden: ''
+message: 'hi everyone!
+
+  I just used the 5.0.3 jailbreak on my new KT and I''m now trying to use the usbnetwork
+  to get my hands on an ssh session. I followed the readme filebut when it says "The
+  IP for the Kindle will always be 192.168.15.244", well I just couldn''t ping any
+  device on that IP. So what I checked out the logs on my wifi router and discovered
+  that my dhcp gave the kindle the ip 192.168.1.2 (the .1 being my router and the
+  kindle being the only device actually connected). So I went on doing the ;un password
+  myrootpassword and tried an ssh root@192.168.1.2 but the ssh server keeps telling
+  me "Permission denied" when I enter myrootpassword...
+
+
+  Am I doing it wrong ?'
+name: gameboo
+url: ''

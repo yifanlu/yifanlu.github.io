@@ -1,0 +1,7 @@
+date: '2011-07-01T01:01:30.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: Yes, if you have a backup 3.1 rootfs.img. Gzip it and put it into a update
+  package (kindle_update_tool.py with --fb option).
+name: Yifan Lu
+url: http://yifan.lu/

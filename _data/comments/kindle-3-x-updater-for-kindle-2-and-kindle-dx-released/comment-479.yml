@@ -1,0 +1,14 @@
+date: '2011-06-23T20:02:31.000Z'
+email: fd94f752b8f239e1d7be15e489300d8d
+hidden: ''
+message: "Regarding the \"error 0003\" mentioned above (post #5). I had the same problem.\
+  \ After looking at the log file requested by Yifan Lu I've realized that the script\
+  \ crashed because there wasn't enough space on the hard drive. Here's the make-backup.log:\n\
+  \nota_install: I def:make-backup::checking for enough free space to continue\nota_install:\
+  \ E def:make-backup::not enough free space to create a backup package. You need\
+  \ at least 900MB to continue.\nsystem: I 1-make-backup.ffs:def:drawing: eips 19\
+  \ 38 \"You need 450MB of free space.\" \n\nSo, I temporarily moved to my computer\
+  \ all of my documents, and the script now works. Note: I initially had like 1.2GB\
+  \ of free space. So I did not expect this to be an issue."
+name: rX
+url: ''

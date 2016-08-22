@@ -1,0 +1,10 @@
+date: '2014-04-28T05:33:43.000Z'
+email: 422f7e7339a32d71abd65602b8006104
+hidden: ''
+message: "Hi, \nI rooted and flashed my e587 I can’t set it  accept 10 wireless device\
+  \ connections.\nI changed SQLite.db and upload again and it show me 10 wifi max\
+  \ assoc, but it doesn’t work, in fact in /var/log/wifi.log there’s an error like\
+  \ invalid value (use default 5).\nCould somebody help me please ?\nThanks\nBye\n\
+  Alessandro"
+name: Alessandro
+url: ''

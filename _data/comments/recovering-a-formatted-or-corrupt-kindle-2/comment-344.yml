@@ -1,0 +1,8 @@
+date: '2011-04-27T20:37:50.000Z'
+email: 0766d28adbbe97c39868829df73a3286
+hidden: ''
+message: Say for the sake of argument that the USB port could somehow be switched
+  over into host mode, wouldn't it be possible to introduce new drivers as ko modules?  Or
+  does the stock kernel not allow the inclusion of externally built ko modules?
+name: bdaddy
+url: ''

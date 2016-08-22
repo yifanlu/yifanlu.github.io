@@ -1,0 +1,21 @@
+date: '2011-04-24T01:17:50.000Z'
+email: 0766d28adbbe97c39868829df73a3286
+hidden: ''
+message: "Interesting, so if you have RS232 access to the kindle, you can put it into\
+  \ a mode where the entire \"MMC0\" device is exported via UMASS, but it requires\
+  \ a password?  Have you seen the following:\n\n-------------------------\n(from\
+  \ http://www.mobileread.mobi/forums/showthread.php?t=49942&page=2)\nnow my kindle\
+  \ dx has been restore ,it's work...thanks ebs,your dump file save me. and i has\
+  \ do some manual work:\n1. boot message say: cannot open /dev/fb/0,my solution is\
+  \ delete this dev file\n2. mkdir -p /mnt/{rwfs,base-us,us} \n3. using recovery menu\
+  \ , select '3' to export whole MMC0, and it's ask for PASSWORD,this password gen\
+  \ by serial no, i do it like this :\n qemu-arm -g 1234 -cpu arm1136 recovery-util\n\
+  \ b *0x128d8\n b *0x128e8\n first break after get_serail_no,r0 point to serial no\
+  \ ,i change it,then second breakpoint,sp point to password\n4.when mmc0 exported\
+  \ , mkfs.ext3 /dev/sdb ,sudo mount -t ext3 /dev/sdb /mnt, sudo tar xvf rootfs.tar.gz\
+  \ /mnt.\n-------------------------\n\nAnd also: http://translate.google.com/translate?hl=en&sl=ru&u=http://www.siralex.info/2011/03/22/kindle-3-troubleshootin/&ei=_VqzTarZDuW10QHroLn9CA&sa=X&oi=translate&ct=result&resnum=3&ved=0CC4Q7gEwAg&prev=/search%3Fq%3Dkindle%2B%2522Load%2BMMC0%2Bover%2BUSB%2Bstorage%2522%26hl%3Den%26safe%3Doff%26prmd%3Divns\n\
+  \nWhere a poster shows an example password of \"fiona828b\".  Is this consistent\
+  \ with what you are talking about above?  Are you familiar with this \"recovery-util\"\
+  \ utility?"
+name: bdaddy
+url: ''

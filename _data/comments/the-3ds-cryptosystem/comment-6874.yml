@@ -1,0 +1,12 @@
+date: '2016-04-11T13:51:35.000Z'
+email: 0cdb07d9d8c9118f1689484384d1f8d7
+hidden: ''
+message: 'Changing the CID is not enough : NAND keyXs (0x04-0x07) are console-unique,
+  derived from the "secret part" of the decrypted OTP (the part that is wiped by the
+  bootROM in ITCM).
+
+  Also there are AES-MACs that you would have to change to perform a manual downgrade,
+  and once again the keyXs for this MACs are derived from the secret part of the decrypted
+  OTP.'
+name: motezazer
+url: ''

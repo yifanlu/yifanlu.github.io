@@ -1,0 +1,7 @@
+date: '2014-01-17T18:24:32.000Z'
+email: b97c02999eeb8e96324aeaeb61c70d49
+hidden: ''
+message: It is most likely decrypted in memory by the CPU whenever a block is read.
+  On boot, there's an on chip bootrom that loads.
+name: Yifan Lu
+url: http://yifan.lu/

@@ -1,0 +1,19 @@
+date: '2011-12-11T18:59:05.000Z'
+email: 1160d4e95591bd4dbfb1f6313a31043e
+hidden: ''
+message: 'Update:
+
+
+  After modifying the bootlogger8ad7.krn file to float a static boolean,
+
+  I set the status updater to null and reformatted the RAM conduit.
+
+
+  All good now.
+
+
+  Actually it just started working after a couple hard resets...
+
+  Sorry, I was just freaking out.'
+name: Swillow
+url: ''

@@ -1,0 +1,12 @@
+date: '2011-12-01T04:26:57.000Z'
+email: e0ecb1a7f23e523a7a69a46997f824f2
+hidden: ''
+message: "\"It seems create_update_3.1.bin does not work on 3.3 firmware. Would you\
+  \ please create update bin file for 3.3 firmware? Thanks a lot\nComment by leetand\
+  \ — November 5, 2011 @ 5:05 am\"\n\nI can also confirm that the create_update_3.1.bin\
+  \ does not work on 3.3 firmware (running on my Kindle 3 wifi).   When I copy over\
+  \ the file along with the rootfs.img, the update menu option is not available. \
+  \ When I reconnect the USB, the create_update file has been removed from the device.\
+  \  \n\nAny solutions for this?  \n\nThanks!\n\nRavi"
+name: Ravi Nagarajan
+url: http://www.rationalwalk.com

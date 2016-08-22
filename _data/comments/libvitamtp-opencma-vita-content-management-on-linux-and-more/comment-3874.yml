@@ -1,0 +1,30 @@
+date: '2013-05-25T21:22:06.000Z'
+email: 7cfe7a4e84aadfdae17aa4fb383485e4
+hidden: ''
+message: "./opencmaa.sh \nOpenCMA 1.1 Beta\nlibVitaMTP Version: 2.0\nProtocol Max\
+  \ Version: 01500010\nOnce connected, send SIGTSTP (usually Ctrl+Z) to refresh the\
+  \ database.\nmain: Waiting for Vita to connect...\nconnect_usb: Looking for USB\
+  \ device...\nconnect_usb: No Vita found. Attempt 1 of 10.\nconnect_usb: No Vita\
+  \ found. Attempt 2 of 10.\nconnect_usb: No Vita found. Attempt 3 of 10.\nconnect_usb:\
+  \ No Vita found. Attempt 4 of 10.\nconnect_usb: No Vita found. Attempt 5 of 10.\n\
+  connect_usb: No Vita found. Attempt 6 of 10.\nPTP: Opening session\nVitaMTP ptp_usb_sendreq[534]:\
+  \ REQUEST: 0x1002, Open session\nVitaMTP ptp_write_func[327]: USB OUT==&gt;\n00:\
+  \ 10 00 00 00 01 00 02 10 00 00 00 00 01 00 00 00 | ................\nVitaMTP ptp_usb_getresp[873]:\
+  \ RESPONSE: VitaMTP ptp_read_func[159]: Remaining size to read: 0x0200 bytes\nVitaMTP\
+  \ ptp_read_func[178]: Reading in 0x0200 bytes\nVitaMTP ptp_read_func[187]: Result\
+  \ of read: 0xfffffffc (0 bytes)\nVitaMTP ptp_usb_getresp[904]: 02ff\nVitaMTP: PTP_ERROR_IO:\
+  \ failed to open session\nVitaMTP: Cannot configure USB device.\nconnect_usb: No\
+  \ Vita found. Attempt 7 of 10.\nPTP: Opening session\nVitaMTP ptp_usb_sendreq[534]:\
+  \ REQUEST: 0x1002, Open session\nVitaMTP ptp_write_func[327]: USB OUT==&gt;\n00:\
+  \ 10 00 00 00 01 00 02 10 00 00 00 00 01 00 00 00 | ................\nVitaMTP ptp_usb_getresp[873]:\
+  \ RESPONSE: VitaMTP ptp_read_func[159]: Remaining size to read: 0x0200 bytes\nVitaMTP\
+  \ ptp_read_func[178]: Reading in 0x0200 bytes\nVitaMTP ptp_read_func[187]: Result\
+  \ of read: 0x0000 (12 bytes)\nVitaMTP ptp_read_func[192]: \n0: 0C 00 00 00 01 00\
+  \ 11 95 01 00 00 00             | ............    \nVitaMTP ptp_usb_getdata[700]:\
+  \ GET DATA PHASE\nVitaMTP ptp_read_func[159]: Remaining size to read: 0x0200 bytes\n\
+  VitaMTP ptp_read_func[178]: Reading in 0x0200 bytes\nVitaMTP: PTP: reading event\
+  \ an error 0x02ff occurred\nvitaEventListener: Error reading event from Vita.\n\
+  VitaMTP ptp_read_func[187]: Result of read: 0xfffffffc (0 bytes)\nmain: Cannot retreve\
+  \ device information."
+name: ivo
+url: http://none
