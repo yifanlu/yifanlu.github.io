@@ -13,7 +13,7 @@ name                     : "Yifan Lu"
 description              : "Random stuff I'm making and thinking"
 url                      : "//yifanlu.github.io"
 baseurl                  : ""
-repository               : "yifanlu/yifanlu.github.io"
+repository               : "yifan.lu"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 excerpt_paragraphs       : 1
