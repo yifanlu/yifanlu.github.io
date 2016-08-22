@@ -14,7 +14,8 @@
     </footer><!-- .comment-meta -->
 
     <div class="comment-content">
-      {{ include.message | markdownify }}
+      {% capture msg %}{{ include.message }}{% endcapture %}
+      {{ msg | markdownify }}
     </div><!-- .comment-content -->
 
     <div class="comment-metadata">
