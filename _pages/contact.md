@@ -10,6 +10,6 @@ wordpress_id: 107
 permalink: /contact/
 ---
 
-The recommended way of contacting me is through Twitter, but if you wish to email me, you may use the form below. I will try to read all emails, but I can not promise respond to everyone.
+The recommended way of contacting me is through [Twitter](https://twitter.com/yifanlu) but if you wish to email me, my email address is below:
 
-[contact-form to='me@yifanlu.com' subject='me@yifanlu.com'][contact-field label='Name' type='name' required='1'/][contact-field label='Email' type='email' required='1'/][contact-field label='Subject' type='text'/][contact-field label='Message' type='textarea'/][/contact-form]
+<a href="http://www.google.com/recaptcha/mailhide/d?k=01O9zbkTiGrK94vkzok6UTlA==&amp;c=s26zTRwtrDxTmpEMnve1Uw==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01O9zbkTiGrK94vkzok6UTlA\x3d\x3d\x26c\x3ds26zTRwtrDxTmpEMnve1Uw\x3d\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...@yifanlu.com</a>
