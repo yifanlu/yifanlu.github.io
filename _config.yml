@@ -11,9 +11,9 @@ title                    : "Yifan Lu"
 title_separator          : "|"
 name                     : "Yifan Lu"
 description              : "Random stuff I'm making and thinking"
-url                      : "//yifanlu.github.io"
+url                      : "//yifan.lu"
 baseurl                  : ""
-repository               : "yifan.lu"
+repository               : "yifanlu/yifanlu.github.io"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 excerpt_paragraphs       : 1
