@@ -1,0 +1,24 @@
+# main links links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "About Me"
+    url: /about/
+
+  - title: "Contact Me"
+    url: /contact/
+
+  - title: "Archives"
+    url: /year-archive/
+
+widget:
+  - title: "Test"
+    url: /
+
+footer:
+  - title: "Test"
+    url: /

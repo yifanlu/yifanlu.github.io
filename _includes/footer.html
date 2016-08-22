@@ -1,0 +1,26 @@
+{% include base_path %}
+{% assign navigation = site.data.navigation.footer %}
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    {% for link in navigation %}
+      {% comment %}internal/external URL check{% endcomment %}
+      {% if link.url contains "://" %}
+        {% assign domain = "" %}
+      {% else %}
+        {% assign domain = base_path %}
+      {% endif %}
+
+      {% comment %}set "active" class on current page{% endcomment %}
+      {% if link.url == page.url %}
+        {% assign active = "active" %}
+      {% else %}
+        {% assign active = "" %}
+      {% endif %}
+
+      <a href="{{ domain }}{{ link.url }}" rel="generator">{{ link.title }}</a>
+      <span class="sep"> | </span>
+    {% endfor %}
+    Theme: Hexa by <a href="http://automattic.com/" rel="designer">Automattic</a>.
+  </div><!-- .site-info -->
+</footer><!-- #colophon -->

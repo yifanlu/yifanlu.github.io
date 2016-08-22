@@ -1,0 +1,30 @@
+<li id="comment-{{ include.index }}" class="comment">
+  <article id="div-comment-{{ include.index }}" class="comment-body">
+    <footer class="comment-meta">
+      <div class="comment-author vcard">
+        <span class="avatar-wrapper">
+          <img alt="" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=60" class="avatar" height="60" width="60">
+        </span>
+      {% unless include.url == '' %}
+        <cite class="fn"><a rel="nofollow" href="{{ include.url }}">{{ include.name }}</a></cite>
+      {% else %}
+        <cite class="fn">{{ include.name }}</cite>
+      {% endunless %}
+      </div><!-- .comment-author -->
+    </footer><!-- .comment-meta -->
+
+    <div class="comment-content">
+      {{ include.message | markdownify }}
+    </div><!-- .comment-content -->
+
+    <div class="comment-metadata">
+      {% if include.date %}
+      <a href="#comment{{ include.index }}">
+        <time datetime="{{ include.date | date_to_xmlschema }}">
+          <span class="post-date">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</span>
+        </time>
+      </a>
+      {% endif %}
+    </div><!-- .comment-metadata -->
+  </article><!-- .comment-body -->
+</li>

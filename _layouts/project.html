@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% include base_path %}
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+{% if teaser %}
+  <figure class="entry-thumbnail">
+  {% if post.link %}
+    <a href="{{ post.link }}">
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+  {% endif %}
+      <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/assets/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+    </a>
+  </figure>
+{% endif %}
+<article class="post hentry" itemscope itemtype="http://schema.org/BlogPosting">
+  <span class="entry-format"></span>
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.title }}</h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    {{ content }}
+
+    <div class="more-content">
+      <h3>{{ site.data.ui-text[site.locale].downloads | default: "Downloads" }}</h3>
+      <p>
+        {% if page.archive %}
+        <span><a href="{{ page.archive }}"><img src="{{ base_path }}/assets/icons/download_archive.png" style="padding-right:5px;" alt="archive">{{ page.title }} ({{ page.version }})</a></span>{% if page.source %}<br>{% endif %}
+        {% endif %}
+        {% if page.source %}
+        <span><a href="{{ page.source }}"><img src="{{ base_path }}/assets/icons/download_source.png" style="padding-right:5px;" alt="archive">{{ page.title }} ({{ page.version }}) Source</a></span>
+        {% endif %}
+      </p>
+    </div>
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="post-version">
+      {{ site.data.ui-text[site.locale].version | default: "Version" }} {{ page.version }}
+    </span>
+    <span class="post-date">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </span>
+    {% if page.author %}
+    <span class="byline">
+      <span class="author vcard">
+        {{ page.author }}
+      </span>
+    </span>
+    {% endif %}
+  </footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+{% include post_pagination.html %}

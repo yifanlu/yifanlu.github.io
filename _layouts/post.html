@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% include base_path %}
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+{% if teaser %}
+  <figure class="entry-thumbnail">
+  {% if post.link %}
+    <a href="{{ post.link }}">
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+  {% endif %}
+      <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/assets/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+    </a>
+  </figure>
+{% endif %}
+<article class="post hentry" itemscope itemtype="http://schema.org/BlogPosting">
+  <span class="entry-format"></span>
+  <header class="entry-header">
+    <h1 class="entry-title">{{ page.title }}</h1>
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    {{ content }}
+
+    {% if page.share %}{% include social-share.html %}{% endif %}
+  </div><!-- .entry-content -->
+
+  <footer class="entry-meta">
+    <span class="post-date">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </span>
+    {% if page.author %}
+    <span class="byline">
+      <span class="author vcard">
+        {{ page.author }}
+      </span>
+    </span>
+    {% endif %}
+    {% include page__taxonomy.html %}
+  </footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+{% include post_pagination.html %}
+{% if site.comments.provider and page.comments %}
+  {% include comments.html %}
+{% endif %}

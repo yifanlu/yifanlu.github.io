@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /tags/
+title: "Posts by Tags"
+---
+
+{% include base_path %}
+{% include group-by-array collection=site.posts field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <header class="page-header">
+    <h1 id="{{ tag | slugify }}" class="page-title archive__subtitle">{{ tag }}</h1>
+  </header>
+  {% for post in posts %}
+    {% include archive-single.html hide_excerpt=true %}
+  {% endfor %}
+{% endfor %}

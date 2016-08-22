@@ -1,0 +1,80 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% if teaser %}
+  <figure class="entry-thumbnail">
+  {% if post.link %}
+    <a href="{{ post.link }}">
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+  {% endif %}
+      <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/assets/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+    </a>
+  </figure>
+{% endif %}
+<article class="post hentry" itemscope itemtype="http://schema.org/BlogPosting">
+  <span class="entry-format"></span>
+  <header class="entry-header">
+    <h1 class="entry-title">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h1>
+  {% if post.read_time %}
+    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+  {% endif %}
+  </header><!-- .entry-header -->
+
+  {% unless include.hide_excerpt %}
+  <div class="entry-content">
+    {% assign truncatedExcerpt = '' %}
+    {% assign paragraphs = post.excerpt | split:'</p>' %}
+    {% for paragraph in paragraphs limit:site.excerpt_paragraphs %}
+        {{ truncatedExcerpt | append: paragraph }}
+        {{ truncatedExcerpt | append: '</p>' }}
+    {% endfor %}
+    {{ truncatedExcerpt }}
+    <p>
+    {% if post.link %}
+      <a href="{{ post.link }}" class="more-link">
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="more-link">
+    {% endif %}
+        {{ site.data.ui-text[site.locale].continue_reading | default: "Continue reading" }} <span class="meta-nav">&rarr;</span>
+      </a>
+    </p>
+  </div><!-- .entry-content -->
+  {% endunless %}
+
+  <footer class="entry-meta">
+    <span class="post-date">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </span>
+    {% if post.author %}
+    <span class="byline">
+      <span class="author vcard">
+        {{ post.author }}
+      </span>
+    </span>
+    {% endif %}
+  </footer><!-- .entry-meta -->
+</article><!-- #post-## -->

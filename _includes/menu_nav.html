@@ -1,0 +1,22 @@
+{% include base_path %}
+{% assign navigation = site.data.navigation.main %}
+
+<ul id="menu-navbar" class="menu">
+{% for link in navigation %}
+  {% comment %}internal/external URL check{% endcomment %}
+  {% if link.url contains "://" %}
+    {% assign domain = "" %}
+  {% else %}
+    {% assign domain = base_path %}
+  {% endif %}
+
+  {% comment %}set "active" class on current page{% endcomment %}
+  {% if link.url == page.url %}
+    {% assign active = "current-menu-item" %}
+  {% else %}
+    {% assign active = "" %}
+  {% endif %}
+
+  <li class="menu-item {{ active }}"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+{% endfor %}
+</ul>

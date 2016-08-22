@@ -1,0 +1,19 @@
+{% include base_path %}
+
+{% if page.previous or page.next %}
+  <nav class="navigation post-navigation" role="navigation">
+    <h1 class="screen-reader-text">{{ site.data.ui-text[site.locale].post_navigation | default: "Post navigation" }}</h1>
+    <div class="nav-links">
+      {% if page.previous %}
+        <div class="nav-previous">
+          <a href="{{ base_path }}{{ page.previous.url }}"><span class="meta-nav screen-reader-text">&larr;</span></a>
+        </div>
+      {% endif %}
+      {% if page.next %}
+        <div class="nav-next">
+          <a href="{{ base_path }}{{ page.next.url }}"><span class="meta-nav screen-reader-text">&rarr;</span></a>
+        </div>
+      {% endif %}
+    </div><!-- .nav-links -->
+  </nav><!-- .navigation -->
+{% endif %}

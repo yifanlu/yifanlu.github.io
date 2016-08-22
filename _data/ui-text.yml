@@ -1,0 +1,42 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_to_content: "Skip to content"
+  search_for: "Search for:"
+  search: "Search"
+  menu: "Menu"
+  widgets: "Widgets"
+  social_links: "Social Links"
+  share_on_label: "Share on"
+  downloads: "Downloads"
+  post_navigation: "Post navigation"
+  version: "Version"
+  continue_reading: "Continue reading"
+  minute_read                : "minute read"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comments_label             : "Leave a Comment"
+  comments_title             : "Comments"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit Comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Another locale
+# --------------

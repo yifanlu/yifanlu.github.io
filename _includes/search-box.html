@@ -1,0 +1,10 @@
+{% include base_path %}
+<div class="search-wrapper">
+  <form role="search" method="get" class="search-form" action="{{ base_path }}/search/">
+  <label>
+  <span class="screen-reader-text">{{ site.data.ui-text[site.locale].search_for | default: "Search for:" }}</span>
+  <input type="search" class="search-field" placeholder="{{ site.data.ui-text[site.locale].search | default: "Search" }} &hellip;" value="" name="q">
+  </label>
+  <input type="submit" class="search-submit" value="{{ site.data.ui-text[site.locale].search | default: "Search" }}">
+  </form>
+</div>

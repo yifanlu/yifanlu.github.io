@@ -1,0 +1,35 @@
+{% include base_path %}
+{% assign navigation = site.data.navigation.widget %}
+
+<div class="widget-areas">
+  <div class="widget-area">
+    <aside id="top-posts-3" class="widget widget_top-posts">
+      <h1 class="widget-title">Featured Posts</h1>
+      <ul>
+      {% for link in navigation %}
+        {% comment %}internal/external URL check{% endcomment %}
+        {% if link.url contains "://" %}
+          {% assign domain = "" %}
+        {% else %}
+          {% assign domain = base_path %}
+        {% endif %}
+
+        {% comment %}set "active" class on current page{% endcomment %}
+        {% if link.url == page.url %}
+          {% assign active = "active" %}
+        {% else %}
+          {% assign active = "" %}
+        {% endif %}
+
+        <li class="{{ active }}"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </aside>
+    <aside id="feedburner-stats" class="widget widget_feedburner">
+    <p><a href="http://feeds2.feedburner.com/YifanLu"><img src="//feeds2.feedburner.com/~fc/YifanLu?bg=E3DACF&amp;fg=345797&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a></p>
+    </aside>
+  </div>
+  <div class="widget-area">
+    <aside id="twitter_timeline-3" class="widget widget_twitter_timeline"><h1 class="widget-title">Follow me on Twitter</h1><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/yifanlu" data-widget-id="331822352352546818" height="250" data-theme="dark" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-lang="EN" data-chrome="noborders">Tweets by @yifanlu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></aside>
+  </div>
+</div>

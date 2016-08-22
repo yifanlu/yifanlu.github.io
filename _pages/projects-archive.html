@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Projects Archive"
+permalink: /projects-archive/
+---
+
+{% include base_path %}
+
+<header class="page-header">
+  <h1 class="page-title">{{ page.title }}</h1>
+</header>
+
+{% assign projects = site.projects | sort: 'date' %}
+{% for post in projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}

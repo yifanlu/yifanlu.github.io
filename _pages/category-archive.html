@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /categories/
+title: "Posts by Category"
+---
+
+{% include base_path %}
+{% include group-by-array collection=site.posts field="categories" %}
+
+{% for category in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <header class="page-header">
+    <h1 id="{{ category | slugify }}" class="page-title archive__subtitle">{{ category }}</h1>
+  </header>
+  {% for post in posts %}
+    {% include archive-single.html hide_excerpt=true %}
+  {% endfor %}
+{% endfor %}

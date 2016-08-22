@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="page" class="hfeed site">
+      {% include header.html %}
+
+      <div id="content" class="site-content">
+
+        <div id="primary" class="content-area">
+          <main id="main" class="site-main" role="main">
+            {{ content }}
+          </main><!-- #main -->
+        </div><!-- #primary -->
+
+      </div><!-- #content -->
+
+      {% include footer.html %}
+
+    </div><!-- #page -->
+
+    {% include scripts.html %}
+  </body>
+
+</html>

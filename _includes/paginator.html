@@ -1,0 +1,24 @@
+{% include base_path %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="navigation paging-navigation" role="navigation">
+  <h1 class="screen-reader-text">{{ site.data.ui-text[site.locale].post_navigation | default: "Post navigation" }}</h1>
+  <div class="nav-links">
+    {% if paginator.next_page %}
+      <div class="nav-previous">
+        <a href="{{ paginator.next_page_path | prepend:base_path }}"><span class="meta-nav screen-reader-text">&larr;</span></a>
+      </div>
+    {% endif %}
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        {% assign prev_url = base_path | append:"/" %}
+      {% else %}
+        {% assign prev_url = paginator.previous_page_path | prepend:base_path %}
+      {% endif %}
+      <div class="nav-next">
+        <a href="{{ prev_url }}"><span class="meta-nav screen-reader-text">&rarr;</span></a>
+      </div>
+    {% endif %}
+  </div><!-- .nav-links -->
+</nav><!-- .navigation -->
+{% endif %}

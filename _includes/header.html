@@ -1,0 +1,62 @@
+{% include base_path %}
+
+{% if page.header %}
+<a href="{{ base_path }}/" rel="home" class="header-image">
+  <img src="{{ page.header | prepend: base_path }}" alt="">
+</a>
+{% endif %}
+<div id="menu-toggle-nav" class="panel">
+  <nav id="site-navigation" class="main-navigation" role="navigation">
+    <a class="skip-link screen-reader-text" href="#content">{{ site.data.ui-text[site.locale].skip_to_content | default: "Skip to content" }}</a>
+
+    <div class="menu-navbar-container">
+      {% include menu_nav.html %}
+    </div>
+  </nav><!-- #site-navigation -->
+</div>
+<div id="sidebar-toggle-nav" class="panel">
+  {% include widgets.html %}
+</div>
+<div id="social-links-toggle-nav" class="panel">
+  <div class="social-links">
+    <ul id="menu-social-links" class="menu">
+    {% if site.author.twitter %}
+      <li class="menu-item"><a href="https://twitter.com/{{ site.author.twitter }}"><span class="screen-reader-text">Twitter</span></a></li>
+    {% endif %}
+    {% if site.author.facebook %}
+      <li class="menu-item"><a href="https://www.facebook.com/{{ site.author.facebook }}"><span class="screen-reader-text">Facebook</span></a></li>
+    {% endif %}
+    {% if site.author.linkedin %}
+      <li class="menu-item"><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/"><span class="screen-reader-text">LinkedIn</span></a></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li class="menu-item"><a href="https://github.com/{{ site.author.github }}/"><span class="screen-reader-text">GitHub</span></a></li>
+    {% endif %}
+    </ul>
+  </div>
+</div>
+<div id="search-toggle-nav" class="panel">
+  {% include search-box.html %}
+</div>
+<header id="masthead" class="site-header" role="banner">
+  <div class="site-header-wrapper">
+    <div class="site-branding">
+      <h1 class="site-title"><a href="{{ base_path }}/" rel="home">{{ site.title }}</a></h1>
+      <h2 class="site-description">{{ site.description }}</h2>
+    </div>
+    <div class="toggles">
+    <div id="menu-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].menu | default: "Menu" }}">
+      <span class="screen-reader-text">{{ site.data.ui-text[site.locale].menu | default: "Menu" }}</span>
+    </div><!-- #menu-toggle -->
+    <div id="sidebar-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].widgets | default: "Widgets" }}">
+      <span class="screen-reader-text">{{ site.data.ui-text[site.locale].widgets | default: "Widgets" }}</span>
+    </div><!-- #sidebar-toggle -->
+    <div id="social-links-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].social_links | default: "Social Links" }}">
+      <span class="screen-reader-text">{{ site.data.ui-text[site.locale].social_links | default: "Social Links" }}</span>
+    </div><!-- #social-links-toggle -->
+    <div id="search-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].search | default: "Search" }}">
+      <span class="screen-reader-text">{{ site.data.ui-text[site.locale].search | default: "Search" }}</span>
+    </div><!-- #search-toggle -->
+  </div><!-- .toggles -->
+  </div>
+</header><!-- #masthead -->
