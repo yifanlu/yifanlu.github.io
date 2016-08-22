@@ -1,0 +1,6 @@
+message: "Comments now support **markdown**\r\n------\r\nYou can insert code\r\n\r\n```c\r\nint test(){\r\n  printf(\"hello world!\\n\");\r\n  return 0;\r\n}\r\n```"
+name: Yifan Lu
+email: 731e5efa432849f0e03d40a2fb47fc49
+url: ''
+hidden: ''
+date: '2016-08-22T14:40:13.133Z'
