@@ -16,9 +16,10 @@ main:
     url: /year-archive/
 
 widget:
-  - title: "Test"
-    url: /
 
 footer:
-  - title: "Test"
-    url: /
+  - title: "Twitter"
+    url: https://twitter.com/yifanlu
+
+  - title: "GitHub"
+    url: https://github.com/yifanlu
