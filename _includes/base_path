@@ -1,5 +1,13 @@
 {% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
+  {% assign url_parts = site.url | split: ':' %}
+  {% if url_parts.first == "http" %}
+    {% assign first_part = site.url | remove_first: "http:" %}
+  {% elsif url_parts.first == "https" %}
+    {% assign first_part = site.url | remove_first: "https:" %}
+  {% else %}
+    {% assign first_part = site.url %}
+  {% endif %}
+  {% assign base_path = first_part | append: site.baseurl %}
 {% else %}
   {% assign base_path = site.github.url %}
 {% endif %}
