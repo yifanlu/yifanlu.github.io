@@ -1,0 +1,9 @@
+message: >-
+  I'm using [Staticman](https://staticman.net). It basically pushes comments as
+  pull requests on github. Then I have IFTTT send me a notification that there's
+  a new comment.
+name: Yifan Lu
+email: 731e5efa432849f0e03d40a2fb47fc49
+url: ''
+hidden: ''
+date: '2016-08-23T14:39:51.854Z'
