@@ -19,6 +19,10 @@
           $('.page__comments-form .js-notice').removeClass('notice--danger');
           $('.page__comments-form .js-notice').addClass('notice--success');
           showAlert('{{ site.data.ui-text[site.locale].comment_success_msg | default: "Thanks for your comment! It will show on the site once it has been approved." }}');
+          $('#comment-form-message').val('');
+          $('#comment-form-name').val('');
+          $('#comment-form-email').val('');
+          $('#comment-form-url').val('');
         },
         error: function (err) {
           console.log(err);
