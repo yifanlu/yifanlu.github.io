@@ -49,6 +49,9 @@ staticman:
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
+    name                 : "sanitize"
+    url                  : "sanitize"
+    message              : "sanitize"
   generatedFields:
     date:
       type               : "date"
