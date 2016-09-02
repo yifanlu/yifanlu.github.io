@@ -36,6 +36,8 @@ staticman:
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
+  akismet                :
+    enabled              : true
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
