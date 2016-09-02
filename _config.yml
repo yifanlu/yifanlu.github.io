@@ -40,6 +40,8 @@ staticman:
     enabled              : true
     author               : name
     content              : message
+    email                : email
+    url                  : url
   commit:
     name                 : name
     email                : email
