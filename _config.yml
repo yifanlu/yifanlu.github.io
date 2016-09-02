@@ -40,6 +40,9 @@ staticman:
     enabled              : true
     author               : name
     content              : message
+  commit:
+    name                 : name
+    email                : email
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
