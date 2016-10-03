@@ -30,9 +30,9 @@ Let's start with the code first.
  * @param[out] ordering  An array of permutated indexes uniformly distributed
  */
 static inline void permute_index(int limit, int ordering[limit-1]) {
-  ordering[0] = (rand() % (limit-1)) + 1;
+  ordering[0] = rand() % (limit-1));
   for (int i = 1; i < limit-1; i++) {
-    ordering[i] = (ordering[i-1] + ordering[0]) % limit;
+    ordering[i] = (ordering[i-1] + ordering[0] + 1) % limit;
   }
 }
 ```
