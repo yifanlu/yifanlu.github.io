@@ -40,7 +40,7 @@ static inline void permute_index(int limit, int ordering[limit-1]) {
 This function picks, uniformly at random, an array that is a permutation of $$[0, 1, \dots, limit-1]$$. Additionally, it has the following nice properties:
 
   * The algorithm is optimal in both time and space complexity. Any algorithm that permutes $$n$$ elements must write out all the element. That means we take $$\Theta(n)$$ time and $$\Theta(1)$$ scratch space. We can also modify this into a streaming algorithm. For example, if we are using Python, we can use `yield` to permute an extremely large data set without having to store "seen" elements.
-  * The marginal distribution is uniform (assuming `rand()` is uniform, which isn't technically true). This will be proven in the end.
+  * The marginal distribution is uniform (assuming `rand()` is uniform, which isn't technically true). This will be proven in the end. An important note: the permutation distribution is _not_ uniform. This will not generate all possible permutations.
   * The code is small and simple enough to copy-paste. You can easily modify it to permute any array of items (not just sequential numbers).
 
 The runtime proof is trivial and will be omitted (it's a single `for` loop). The rest of this post will be a proof of correctness and assumes no previous knowledge of group theory.
