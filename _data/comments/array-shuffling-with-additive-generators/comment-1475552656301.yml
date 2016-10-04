@@ -1,0 +1,6 @@
+message: "Neat post and clean write-up! Out of curiosity, is there any advantage to using your method instead of the one that I present below?\r\n\r\nLet $$X \\in_R [0, N-1]$$, and define $$\\sigma(0) = X$$, $$\\sigma(x) = (\\sigma(x-1) + 1) \\mod (N)$$ for $$x \\in [1, N-1]$$. I believe this algorithm has the same properties that yours has, and it works for non-prime N."
+name: Akshay Agrawal
+email: d584ac7526bfb539f920c8a87a5a84e2
+url: 'https://www.debugmind.com'
+hidden: ''
+date: '2016-10-04T03:44:16.096Z'
