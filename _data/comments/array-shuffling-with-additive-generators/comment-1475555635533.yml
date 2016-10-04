@@ -1,0 +1,10 @@
+message: >-
+  Ah, got it. If there is a meaningful order behind the elements we're
+  permuting, and if we want to permute them in such a way that elements whose
+  distance from each other is small are not placed near each other, then we'd
+  prefer to use your algorithm. Cool!
+name: Akshay Agrawal
+email: d584ac7526bfb539f920c8a87a5a84e2
+url: 'https://www.debugmind.com'
+hidden: ''
+date: '2016-10-04T04:33:55.383Z'
