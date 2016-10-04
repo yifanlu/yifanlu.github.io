@@ -1,0 +1,17 @@
+message: >-
+  Right, that's true. I guess maybe I didn't capture the intuitive "power" of
+  the algorithm. Namely that the ordering of the numbers appear more "random"
+  than your example. Remember, the usage was in writing unit tests. I wanted to
+  randomize a sequence of events multiple times--each time on a separate thread.
+  I actually caught a bunch of memory bugs this way. In your example, an event
+  $$N$$ would almost always be followed by event $$N+1$$ and therefore does not
+  give the same illusion of randomness. I think a uniformly random permutation
+  would be the best solution in this case, but obviously that costs a lot of
+  memory. Maybe there is a metric of closeness to the uniform distribution that
+  can be used? Or maybe the distribution of the distance between two elements
+  can be measured?
+name: Yifan Lu
+email: 731e5efa432849f0e03d40a2fb47fc49
+url: ''
+hidden: ''
+date: '2016-10-04T04:13:07.248Z'
