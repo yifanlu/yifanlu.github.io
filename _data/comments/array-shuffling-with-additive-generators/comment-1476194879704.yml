@@ -1,0 +1,7 @@
+message: "Very cool, thanks for sharing!\r\nHave you heard about format preserving encryption? It's a different method for doing this.  The idea is that if you hash N items, you will have collisions.  However, if you encrypt N items you will not have collisions, since encryption is reversible.  The problem is then how to find an encryption algorithm that is \"right sized\".  There are a couple ways, but Feistel networks work well, for making a cipher which works with the next power of 2 size up from N.  During your shuffle iteration, you just discard any numbers you get as output which are larger than N.  You can tune the algorithm for speed or quality.  Larger iterations of feistel network give better quality while taking longer to compute.  I use a hash function (murmurhash) for the feistel network round function, but that can be swapped out for other functions that are either better or faster."
+name: Alan Wolfe
+email: 9522425587344b887bcb7c65d236f3a3
+url: >-
+  http://blog.demofox.org/2013/07/06/fast-lightweight-random-shuffle-functionality-fixed/
+hidden: ''
+date: '2016-10-11T14:07:59.572Z'
