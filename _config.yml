@@ -11,7 +11,7 @@ title                    : "Yifan Lu"
 title_separator          : "|"
 name                     : "Yifan Lu"
 description              : "Random stuff I'm making and thinking"
-url                      : "http://127.0.0.1:4000"
+url                      : "https://yifan.lu"
 baseurl                  : ""
 repository               : "yifanlu/yifanlu.github.io"
 # breadcrumbs            : false # true, false (default)
