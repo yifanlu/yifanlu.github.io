@@ -1,4 +1,7 @@
 {% if site.repository and site.staticman.branch %}
+{% if site.staticman.recaptcha %}
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+{% endif %}
   <script>
     (function ($) {
     var $comments = $('.js-comments');

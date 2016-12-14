@@ -30,12 +30,13 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   server                 : "staticman.yifan.lu"
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message', 'recaptcha']
   branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
+  recaptcha              : true
   akismet:
     type                 : "comment"
     author               : name
@@ -46,7 +47,7 @@ staticman:
     name                 : name
     email                : email
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['name', 'email', 'message', 'recaptcha']
   transforms:
     email                : "md5"
     name                 : "sanitize"
