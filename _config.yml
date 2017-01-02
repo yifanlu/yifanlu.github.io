@@ -35,7 +35,7 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
+  moderation             : false
   recaptcha              : true
   akismet:
     type                 : "comment"
