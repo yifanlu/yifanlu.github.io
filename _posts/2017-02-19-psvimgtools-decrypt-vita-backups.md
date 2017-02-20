@@ -16,7 +16,7 @@ tags:
 - releases
 ---
 
-The Vita's Content Manager allows you to backup and restore games, saves, and system settings. These backups are encrypted (but not signed!) using a [key derived in the F00D processor](https://wiki.henkaku.xyz/vita/PSVIMG). While researching into F00D, **xyz** and **Proxima** stumbled upon a neat trick that lets you obtain this secret key and that has inspired me to write a set of tools to manipulate CMA backups. The upshot is that with these tools, you can modify backups for any Vita system including 3.63 and likely all future firmware. This does not mean you can run homebrew, but does enable certain tricks like disabling the PSTV whitelist or swapping X/O buttons.
+The Vita's Content Manager allows you to backup and restore games, saves, and system settings. These backups are encrypted (but not signed!) using a [key derived in the F00D processor](https://wiki.henkaku.xyz/vita/PSVIMG). While researching into F00D, **xyz** and **Proxima** stumbled upon a neat trick proposed originally by **plutoo** that lets you obtain this secret key and that has inspired me to write a set of tools to manipulate CMA backups. The upshot is that with these tools, you can modify backups for any Vita system including 3.63 and likely all future firmware. This does not mean you can run homebrew, but does enable certain tricks like disabling the PSTV whitelist or swapping X/O buttons.
 
 ## Backup Keys
 
