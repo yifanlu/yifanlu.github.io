@@ -38,6 +38,8 @@ As you might have guessed, the Vita does it the incorrect way, so anyone can ret
 
 I wrote a tool to do this brute force for you. It is not hyper-optimized but is portable and can find any key on a modern computer in about ten minutes. I have provided a Vita homebrew that generates the chosen ciphertexts on any HENkaku enabled Vita. These "partials", as I call it, can be passed to `psvimg-keyfind` to retrieve a backup key for any PSN AID. The AID is not console unique but is tied to your PSN account. This is the hex sequence you see in your CMA backup path. The idea is that if you have a non-hackable Vita, you can easily send your AID to a friend (or stranger) who can generate the partials for you. You can then use `psvimg-keyfind` to find your backup key and use it to modify settings on your non-hackable Vita. Huge thanks to Proxima for the reference implementation that this is based off of.
 
+**UPDATE**: You no longer need to use this tool. [http://cma.henkaku.xyz/] will take care of everything if you pass in your AID.
+
 ## Hacking Backups
 
 What I did is completely reverse how CMA generates and parses the backup format. I have documented [extensively](https://github.com/yifanlu/psvimgtools/blob/master/psvimg.h) how these formats work. I also wrote tools to dump and repack CMA backups and all this works with backups generated from the latest firmware.
