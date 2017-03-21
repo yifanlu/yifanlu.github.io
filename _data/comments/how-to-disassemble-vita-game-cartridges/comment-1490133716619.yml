@@ -1,0 +1,8 @@
+message: "Hello Yifan and others, I was thinking about this : recently, I saw that the PSTV can use a regular USB drive as a memory card, thanks to VitaShell. (I think that the USB drive is mounted as ux0: ). \r\n\r\nDo you think it would be interesting to investigate the communication made through the Game Card, so that one day, we could make an adapter PS Vita GameCard &lt;==&gt; Micro SD and there mount the micro-SD as ux0: ? I was thinking of this because you suspected that the GameCard uses standard SD protocol, plus there is plenty of room in a Vita GameCard to put a micro SD (much more room than in the memory card slot). The \"logical brick\" that was missing for me was the \"mounting\", but if VitaShell can mount partitions as it wishes, would it be feasible (just your opinion) to mount a micro-SD from a gameCard to ux0: ?"
+name: Yattoz
+email: cb94a6516cb842dfe2f0118bd64d8f1a
+url: ''
+hidden: ''
+recaptcha: >-
+  03AI-r6f5x-x6Dj1IpBh-mdzRdiqRsKk-TbvEbzWu8vzMUwyC9gU7hWlDCoDO9fLl0FH1zo3Rp_gFT7CiXYr_5RoF9UJzsPvN93QMm76KiU1LMCb5BVTjT4Qay6_kN4RBxNhL_5QLcE9V5QQxd0jG2dk8FNHL-hcCdBp8TvjV4N1nZ16uiFM-V4P8pj0H1Wv2JK5k9ddbODQ4u8uLASOlYV0ix01ZHMF8cLiErbXOesfNxi_XTMlhJFMxgZ9-18L7eKDLdOkni5gWi1Si67ZbsZ54Ya6JGMwThmqih1bN0Vmc3CuiHC1YZjG8Ss4IGQxSs5dwhXponPPu6O0qphk4QoqmZ0P5mdg9U3L7HrUauBJy-si1Ajc0Q5lQC9-L1xLKiEjP3T-uCiEvOLUxWPQ1a342bmM40bE6CcQ
+date: '2017-03-21T22:01:56.604Z'
