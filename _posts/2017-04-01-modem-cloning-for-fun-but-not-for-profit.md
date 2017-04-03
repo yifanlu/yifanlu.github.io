@@ -22,7 +22,7 @@ tags:
 
 Recently, I stumbled upon an old cable modem sitting next to the dumpster. An neighbor just moved out and they threw away boxes of old junk. I was excited because the modem is much better than the one I currently use and has fancy features like built in 5GHz WiFi and DOCSIS 3.0 support. When I called my Internet service provider to activate it though, they told me that the modem was tied to another account likely because the neighbors did not deactivate the device before throwing it away. The technician doesn't have access to their account so I would have to either wait for it to be inactive or somehow find them and somehow convince them to help me set up the modem they threw away.
 
-But hackers always find a third option. I thought I could just reprogram the MAC address and activate it without issue. Modems/routers are infamously easy to hack because they always have outdated software and unprotected hardware. Almost every reverse engineering blog has a post on hacking some router at some point and every hardware hacking "training camp" works on a NETGEAR or Linksys unit. So this post will be my right of passage into writing a "real" hardware hacking blog.
+But hackers always find a third option. I thought I could just reprogram the MAC address and activate it without issue. Modems/routers are infamously easy to hack because they always have outdated software and unprotected hardware. Almost every reverse engineering blog has a post on hacking some router at some point and every hardware hacking "training camp" works on a NETGEAR or Linksys unit. So this post will be my rite of passage into writing a "real" hardware hacking blog.
 
 ## BPI+
 
