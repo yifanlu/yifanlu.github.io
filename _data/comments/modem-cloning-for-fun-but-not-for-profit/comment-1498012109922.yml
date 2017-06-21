@@ -1,0 +1,8 @@
+message: "I have a router\r\nIt does not provide the web settings page (but the 80 port has a web engine, 404 access), and SSH and telnet are open\r\nNormally an app is used to control it, and its app seems to send instructions to a server, and my routing device fetches instructions from this server\r\nI tried SSH and telnet login, but found that the default password was incorrect\r\nIs there any way to obtain shell privileges without modifying the hardware?"
+name: shira
+email: 533d17d4b0d291a444a62a70a959014e
+url: 'https://blog.ni-co.moe'
+hidden: ''
+recaptcha: >-
+  03AOPBWq99-stqVsIufq9JkJPSAR7ndX6qvNnZMCKjpX_7d2FdQa9BFsF2d48VuyOyqSP_km9tVn1Niy6tsKgM1-TKzTjBsSYXvVOEEZcjvbpOJhLTl37rNmr2zQuoghox4SuS3NLG5PCg4eVgKrD7hYFHlix5TE5ZpXpJ3QOTdabSalnc5mB0WCkUFMXKK8iD0iK2rZYOwEKlCbacbEiZS7gUyrpBU9GHUBnbZU4etuBtOCZmMeZeYIbfyfPcNx8hFdZVyxgYwVDQbuYILiWsGPfZ4XXK9RhWzZ1QNBPQ6ldCKhs1mY8XHHElIaFpB-WzDCD7wQ0jeUPqoen0YQSSVmGfZYkqW0gBPpRN7gk0AWhXbz6cMy4Gu4SCQkMndECQezhiNTCNZXiclpPZQ8vTFb1M4PhdV-qA_m0VYWLOnbXfQn1goqIfxjw
+date: '2017-06-21T02:28:29.725Z'
