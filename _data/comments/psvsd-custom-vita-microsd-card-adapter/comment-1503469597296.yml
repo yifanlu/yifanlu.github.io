@@ -1,0 +1,20 @@
+message: >-
+  @Wololo, I don't have a magic device that measures the interest of the "scene"
+  nor do I care about what the "scene" likes or don't like. However, here's
+  three facts. 1) some people (like me) own and play mostly physical games, 2)
+  we can't just dump our games because the current dumpers are shit and corrupt
+  games and cause issues like saves disappearing after standby as well as saves
+  being incompatible with non-hacked Vitas (via upgrading fw or CMA transfer),
+  and 3) the gamecard_microsd driver is more complex than usbmc and therefore
+  more likely to contain issues (one issue already discovered is that Vitas wake
+  up from standby often which might affect battery life)--this can be fixed by
+  software but nobody has picked up the mantel from xyz so who knows when it
+  will be fixed or if it will ever be fixed. usbmc on the other hand has been in
+  VitaShell for months and no issues have been discovered so far.
+name: Yifan Lu
+email: 731e5efa432849f0e03d40a2fb47fc49
+url: 'http://yifan.lu'
+hidden: ''
+recaptcha: >-
+  03AOmkcwL0jSMcXVJByyxQAET9mk4UlPik4OCnffQWo97eREtzgfY3p5FPFH-YUClGKKRCAj1l6pE_ys0EpAoXmd49R2SaqagTFHc4FB1rLd_kN5154BBvJV74DqugJsG_zOBqf9W8MwIE3UTo4fg72lqURaoGe7KRhSkVlIPStHVw1EPTxrNgphWoMdpNUCTTQmk7NRVe2g25LFS8jrOjwNxwAWpVnLwr4rM1ub9cnHtwixRqWeOdwHgSBxnf-hAVjnbRQnDW4Hzzje8ermIQLVyXbp7Zt8s3eO3kFGlfkLkmoKKguoJDui9WyrkP-wWM-T40E_dLBcKpLoDuMfhBPExujmhycUZfMgOupIF2DadoKYg3qgDAXWRE41Syo5aMjP8mi4xUlufCd_aXP5Xm_cKUjjFJGAUdf1z9qc_bnO4X4T1ltHOPjQo
+date: '2017-08-23T06:26:37.287Z'
