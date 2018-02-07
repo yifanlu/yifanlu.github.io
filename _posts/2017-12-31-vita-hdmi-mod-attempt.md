@@ -18,7 +18,7 @@ tags:
 - mipi
 ---
 
-For the last couple of months, I've been developing an HDMI mod for the Vita on my free time. I thought it would be a fun project to practice my hardware design skills even though the end product would not be too useful (the VitaTV already exists). Unfortunately, this project did not end in success but I want to write about it anyways so you can see what I've been doing with some of the leftover money from my [adapter project](% post_url 2017-08-22-psvsd-custom-vita-microsd-card-adapter %).
+For the last couple of months, I've been developing an HDMI mod for the Vita on my free time. I thought it would be a fun project to practice my hardware design skills even though the end product would not be too useful (the VitaTV already exists). Unfortunately, this project did not end in success but I want to write about it anyways so you can see what I've been doing with some of the leftover money from my [adapter project]({{% post_url 2017-08-22-psvsd-custom-vita-microsd-card-adapter %}}).
 
 ## Overview
 
