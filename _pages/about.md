@@ -21,7 +21,7 @@ I am on [Twitter](http://twitter.com/yifanlu), [Facebook](http://www.facebook.co
 
 If I did something you enjoyed or found cool and you want to show your appreciation, kind words are enough. However, because people have insisted...
 
-Bitcoin: **1CZwLbMvxHSRFtPxnN4ZeHhsrB4uXEDjHh**
+Bitcoin: **1uyifanZroqLaTwzhKh4aUnc7zCaHTzz6**
 
 PayPal:
 <form action="//www.paypal.com/cgi-bin/webscr" method="post" target="_top">
