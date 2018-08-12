@@ -1,0 +1,8 @@
+message: "There's an easier way to detect an infinite loop.  Check the GCD of the pair.  For repeating loops the GCD never changes.  For terminating sequences the GCD doubles at each step.  However there is a third kind of loop to consider.  Some have a lead in sequence than doesn't repeat but eventually turns into a looping sequence. For these the GCD will increase each step for the non repeating lead in part of the sequence, then will become static for the repeating section.  So just testing the first and second step of a sequence will not be enough. \r\n\r\nWe can take this a step further however. If any of the GCDs divide the sum of the pair into a power of 2 then the loop is terminating. \r\n\r\nThe code looks like this.\r\ndef test_pair(a, b):\r\n    sm = (a + b) / gcd(a, b)\r\n    return not (sm &amp; (sm - 1)) == 0 and sm &gt; 0"
+name: Geo R
+email: 695bf39ab970d9a61c1e9515c7b01a9c
+url: ''
+hidden: ''
+recaptcha: >-
+  03AHqfIOmt_-hjeUr8iWMj9EZ-yIL2t_8q-S77tIwjOXNj8V-VsJ782ccceOalttuQtxnWsjwghtDgkOwFn8Km6q07uDMIqgDH358FRFgkP1Og3qgl96--OmyqT_qfQd453NwqZCeuGYfs9EDVbsq4da43QILlSsevXQIwgiEhVJDZreLzkG6ANnLCx6-E9cu4GIYAApqN1wUb8Wpo4MMV608dTOGV_8aZff70WUF-MuF22k5WKY4YDWzSFZW9YA9rOGOL0K-7nZwLhdobiWoKFvy0o-jwhvoypg
+date: '2018-08-12T15:43:31.297Z'
