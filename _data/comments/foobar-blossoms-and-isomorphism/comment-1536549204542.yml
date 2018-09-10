@@ -1,0 +1,8 @@
+message: "Using the function in the article:\r\n```\r\ndef willLoop(x, y):\r\n    n = x+y\r\n    n_tilde = n\r\n    while n_tilde % 2 == 0:\r\n        n_tilde = n_tilde / 2\r\n    return (x % n_tilde) != 0\r\n```\r\nwillLoop(9, 15) returns true, but in reality it goes (9, 15) -&gt; (18, 6) -&gt; (12, 12) and stops looping."
+name: Cy
+email: 58728af8589e25b7d1d860168515374c
+url: ''
+hidden: ''
+recaptcha: >-
+  03AL4dnxr6nfoxK4mhlE_px4VjGVFKw4MdYbLrY7oK3o4EZnGswSiYHl8ylCPItHMHr5ybA6R6UFAjffE678ZVUfxt9hUPRSgFqCs3w0TdsyV7DcTrqSubeg7wn11Pkx6v8HRRJH6xGllYt_VaAaJqGaMGIR9ylrZ9h5nqq18082IOE8yjQgDCnsLm01D4oKO09rOzP_1Ghgy2CGrNZ3_BeRl4Hw6bi39JO6fp2bHpOlv92LNqWbPZqf1JyYVuYhqJSsq_40-6hs61xgYD_emTom4rDu6n8ymSgw
+date: '2018-09-10T03:13:24.532Z'
