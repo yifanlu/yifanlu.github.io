@@ -21,8 +21,6 @@ li > ol {
 
 /* Text meant only for screen readers */
 
-.screen-reader-text:hover,
-.screen-reader-text:active,
 .screen-reader-text:focus {
 	right: 24px;
 	left: auto;
@@ -420,7 +418,6 @@ blockquote {
 .post-date,
 .sticky .post-date,
 .tags-links,
-.categories-links,
 .byline,
 .edit-link {
 	margin-left: 28px;
@@ -431,7 +428,6 @@ blockquote {
 .post-date:before,
 .sticky .post-date:before,
 .tags-links:before,
-.categories-links:before,
 .byline:before,
 .edit-link:before {
 	margin-left: 2px;
