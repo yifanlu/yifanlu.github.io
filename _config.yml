@@ -170,7 +170,7 @@ paginate_path: /page/:num/
 timezone: "US/Pacific"
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
