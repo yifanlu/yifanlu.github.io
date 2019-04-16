@@ -1,0 +1,12 @@
+message: >-
+  Lattice offers 8$ FPGA called CrossLink with hard 600MHz MIPI PHY peripherals
+  in 0.65mm pitch 80bga. It includes PLL for locking to pixel clock. I think you
+  could mux VCO output back to PLL reference input during MIPI LP mode and then
+  switch back to MIPI Clk to appease your HDMI bridge.
+name: whiskthecat
+email: ee85c891a4bbb888c46e2eb4d8d64dad
+url: ''
+hidden: ''
+recaptcha: >-
+  03AOLTBLTz61KnylghJgwKPgX5i-XSZAfrzny36Q0IcNWxSrrtmRv8OMDpXoAleRBUN2nWUz3dCEUPjJrS1Nm1LE4gb-z0F4EBADrHHoq3qKLMYnaxOhvf7qswfNKGj4mGcl74CpxilhxGVtuOljIljXRIeXhrIFv-sbiqYsC_Wr1SQ7IXaPHZoD5igmXwfEejRgz6nouun9WL3cgE1ukEzf-bgf4aHesE_q8dKLW1uUp5YPQLR7qKvDrW7V_-gbcw4_uvgRt4kjTh00PTBAxvNQC9PaccNfeNgdx4j9k3Qjqk7bonZ9O46bc
+date: '2019-04-16T00:56:04.143Z'
