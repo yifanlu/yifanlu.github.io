@@ -1,0 +1,8 @@
+message: "@Linda: You're right when you write that an odd number of bananas can't be divided equally, therefore all pairs (a, b) where a+b is odd will lead to a loop.\r\n\r\nHowever, some \"even\" pairs can loop: (4, 2) → (2, 4) → (4, 2)...\r\n\r\nOr (1, 9) → (2, 8) → (4, 6) → (8, 2) → (Loop)..."
+name: Loic
+email: 2b0f15e827774380d9f52396c4ee6fca
+url: ''
+hidden: ''
+recaptcha: >-
+  03AOLTBLThQsdhqe7ducgTFWENjVFZR5r1H49PTqMuDtHotFTPnHk6IIBUkG3Mj4U-mqYFl0P6PKPOCOpZbn1Nzpff_srF-8ljVFoM1HDsF0gsAcYfvHyEeHWxJ3WfOD7umqWddwYCYWwBK8TDfG7kEzU67j5bRZQCZmUl71563LJWIK8tGDooSauSRkmpele9zg0ul5VND8bG1gxRwCpvzFJwJiShE2X6hyAZYdn9xfYd_97UvQg-cPVj1YwR9P9CmmBrxpN5zZfwZCoRW7cNH4O506rjG0rXunLh4bjnQIOtLNPLBDmvgjzlakNg1JlSk_pzYuT7iYbV
+date: '2019-06-06T11:36:06.356Z'
