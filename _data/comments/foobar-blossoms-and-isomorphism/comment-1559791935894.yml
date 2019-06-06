@@ -1,0 +1,14 @@
+message: >-
+  I kinda just thought, if the sum is odd, they'll never have an equal number so
+  just look for those pairings. Any time it's even, it will probably even out
+  eventually. It seems the test cases bear that out. You need at least one odd
+  and one even number to sum to an odd number, and that pairing will lead to two
+  guards distracted.  All odd or all even inputs will not distract the guards.
+  Did I oversimplify or misunderstand the problem?
+name: Linda
+email: 764a21a6d00b6994b70ab71dcaf4a601
+url: ''
+hidden: ''
+recaptcha: >-
+  03AOLTBLQ4u3OyaT5HsrJm1LC8MQiRUkNj3YIdOL5lR7xuiM_jb8p9lECLw0tsEppzGeCJEHxB9yzEoTfz_zxOG2SgaNmc7l-FGFEWUyyqCv1Lo6HnoCYFoIxYaU5qvR371kGuAT4WKTV53L6USFv1gXDWkDwEgetbs_2i6zTa9mhq6lafuez9f7SegQLUn-TsjVDvL9JuwXDdpLxaZCgESd1_7jBMJ3uwWdLtABuyHxO3owWdCr8zzHfzTpE6PSfliLMql0rK_fsZ1fBw3sgxWjR3y6Az8AO6rQzgHo1ix2xcpY-MjpkVieM
+date: '2019-06-06T03:32:15.877Z'
