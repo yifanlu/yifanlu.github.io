@@ -1,0 +1,8 @@
+message: "@Cy: Indeed, the predicate `willLoop(x, y) iff for all t, x * 2^t != n/2 [mod n]` is false for (x, y) = (9, 15).\r\n\r\nThe pair (9, 15) does loop but with t=2: 9*2^2 = 36 = 12 [24]."
+name: Loic
+email: 2b0f15e827774380d9f52396c4ee6fca
+url: ''
+hidden: ''
+recaptcha: >-
+  03AOLTBLTP5p8emXUQg1AaB5nOY7NCvYX2PCwB0ptKrgwNW4BdE5q490vWiyXw7SmBsQEY2ikFPQxBBR4vPxtS6QaACh2tyL9Hspza2HVYJZ4d7Shu6OoAjVWLFr66wxsMEteMkrobPaC3yZHsjcHuy8qXHoY2Hb0wnmitUiOuiJAneWdio0mNgoPmnys2Fwqb6DFtiWMQXe6m0Tg9eoy6MnFufBiYncALV4Ou9xY9dNwtggn6v9p-Nz4n2kJJadD7vla2d-ypeAWwCu0gbdU9HsYIsGsZ76a4BSF59sqH8i_ZAkkdOoRd5aaUY_Mj954mKkBRbMT5WSSj
+date: '2019-06-06T11:46:57.026Z'
