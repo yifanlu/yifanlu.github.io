@@ -13,7 +13,6 @@ name                     : "Yifan Lu"
 description              : "Random stuff I'm making and thinking"
 url                      : "https://yifan.lu"
 baseurl                  : ""
-repository               : "yifanlu/yifanlu.github.io"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 excerpt_paragraphs       : 1
@@ -28,36 +27,11 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  server                 : "staticman.yifan.lu"
-  allowedFields          : ['name', 'email', 'url', 'message', 'recaptcha']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : false
-  recaptcha              : true
-  akismet:
-    type                 : "comment"
-    author               : name
-    content              : message
-    email                : email
-    url                  : url
-  commit:
-    name                 : name
-    email                : email
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message', 'recaptcha']
-  transforms:
-    email                : "md5"
-    name                 : "sanitize"
-    url                  : "sanitize"
-    message              : "sanitize"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+staticman                : "https://staticman.yifan.lu/v2/entry/yifanlu/yifanlu.github.io/master/comments"
+reCaptcha:
+  siteKey                : "6LdxEykTAAAAAM53IF7qUoFB1vCfrVVUbSCDx6cF"
+  secret                 : "dV6E8W7eIeOFdTKk6+ZzJA4odQQnfjqeQIvf3ejfVrbYID+zuqryKPSkAeViLv07XrJjEKO3DT+y4PJhR2D5F2PtMpF0qIKS1iOTb1fNiS1hk8Lu3mzWLYxnny69h6/LCMd7RUYPy/1heFw1USy8NK98fdlW54aYAAaPP7kos1z4rTRIWn4IutyPPArAkUx4hM4PyQX0aNqfYVtqHdzjC8LdQOZ7kXv4xQfSIj6JiOKZfl1JSjb3myZkb0e65ytsEwAO3WIbTuc6pMkw4/BHAzU3r3vyMJTEjRmL2bezPDwsq/wykhPk4kbefOmK6VynVeHyujqqc/SMvEBFQ06v9Hck1nggnseVxr6lJo3PztQT/cxu7Y5goOdgFEbv43kz/A8MftgiiX+emjlApWTWmSlrdUJpDrcmYybYg7HohCFfaEUHqFpSVUly5k8KYjv3jHlOivz5/ExghgAfG/7CnEFKzIgOhl1teuR2Hn5gapEO+Ur39TArx6w2VN3rVR7g64j4dOrNG0GWoiVUj7TSe9zph+AiJzEbbUBqtPuEASyZzaNHI503qM4NnTIZyDUZEmqXnKV4gsdwvtx4Dm8mzDlOEuDYnaLG9Gkh5H/2BJ947BcIjpLwg6APmmuU73WYJgm4x0zI/oXjWR4CaucpPxf360qLf3X+EpVZIpAtPdU="
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 

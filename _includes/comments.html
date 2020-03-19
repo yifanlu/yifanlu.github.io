@@ -13,7 +13,7 @@
     <h2 class="comments-title">{{ comments_label }}</h2>
     <section class="g-comments" data-href="{{ base_path }}{{ page.url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
   {% when "staticman" %}
-    {% if site.repository and site.staticman.branch %}
+    {% if site.staticman %}
       <h2 class="comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h2>
       <!-- Start static comments -->
       <ol class="comment-list">
@@ -36,7 +36,7 @@
       <div id="respond" class="comment-respond">
         <h3 class="comment-reply-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h3>
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
-        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://{{ site.staticman.server }}/v1/entry/{{ site.repository }}/{{ site.staticman.branch }}">
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="{{ site.staticman }}">
           <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
             <span class="sr-only">{{ site.data.ui-text[site.locale].loading_label | default: "Loading..." }}</span>
@@ -61,13 +61,17 @@
           </fieldset>
           <fieldset class="hidden">
             <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+{% if site.reCaptcha.siteKey %}
+            <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+            <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
+{% endif %}
             <input type="hidden" name="fields[hidden]"/>
           </fieldset>
-        {% if site.staticman and site.staticman.recaptcha %}
+{% if site.reCaptcha.siteKey %}
           <fieldset>
-            <div class="g-recaptcha" data-sitekey="6LdxEykTAAAAAM53IF7qUoFB1vCfrVVUbSCDx6cF"></div>
+            <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
           </fieldset>
-        {% endif %}
+{% endif %}
           <!-- Start comment form alert messaging -->
           <p class="hidden js-notice">
             <strong class="js-notice-text"></strong>
