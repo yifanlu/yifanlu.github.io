@@ -231,11 +231,11 @@ blockquote {
 	border-left-color: #6a524a;
 }
 
-.toggles #social-links-toggle:after {
+.toggles #find-me-links-toggle:after {
 	border-right-color: #d2c38e;
 }
 
-.toggles #social-links-toggle:before {
+.toggles #find-me-links-toggle:before {
 	border-left-color: #d2c38e;
 }
 
@@ -660,6 +660,6 @@ div.sharedaddy div.sd-block {
 
 /* =Social Links */
 
-.social-links ul a {
+.find-me-links ul a {
 	float: right;
 }

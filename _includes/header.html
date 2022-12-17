@@ -17,9 +17,9 @@
 <div id="sidebar-toggle-nav" class="panel">
   {% include widgets.html %}
 </div>
-<div id="social-links-toggle-nav" class="panel">
-  <div class="social-links">
-    <ul id="menu-social-links" class="menu">
+<div id="find-me-links-toggle-nav" class="panel">
+  <div class="find-me-links">
+    <ul id="menu-find-me-links" class="menu">
     {% if site.author.twitter %}
       <li class="menu-item"><a href="https://twitter.com/{{ site.author.twitter }}"><span class="screen-reader-text">Twitter</span></a></li>
     {% endif %}
@@ -51,9 +51,9 @@
     <div id="sidebar-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].widgets | default: "Widgets" }}">
       <span class="screen-reader-text">{{ site.data.ui-text[site.locale].widgets | default: "Widgets" }}</span>
     </div><!-- #sidebar-toggle -->
-    <div id="social-links-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].social_links | default: "Social Links" }}">
+    <div id="find-me-links-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].social_links | default: "Social Links" }}">
       <span class="screen-reader-text">{{ site.data.ui-text[site.locale].social_links | default: "Social Links" }}</span>
-    </div><!-- #social-links-toggle -->
+    </div><!-- #find-me-links-toggle -->
     <div id="search-toggle" class="toggle" title="{{ site.data.ui-text[site.locale].search | default: "Search" }}">
       <span class="screen-reader-text">{{ site.data.ui-text[site.locale].search | default: "Search" }}</span>
     </div><!-- #search-toggle -->

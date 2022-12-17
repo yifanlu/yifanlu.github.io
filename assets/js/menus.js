@@ -4,10 +4,10 @@ jQuery(document).ready(function($) {
 
 		var sidebarToggle = $('#sidebar-toggle');
 		var menuToggle = $('#menu-toggle');
-		var socialLinksToggle = $('#social-links-toggle');
+		var socialLinksToggle = $('#find-me-links-toggle');
 		var searchToggle = $('#search-toggle');
 
-		var socialLinksNav = $('#social-links-toggle-nav');
+		var socialLinksNav = $('#find-me-links-toggle-nav');
 		var sidebarNav = $('#sidebar-toggle-nav');
 		var searchNav = $('#search-toggle-nav');
 		var menuNav = $('#menu-toggle-nav');
